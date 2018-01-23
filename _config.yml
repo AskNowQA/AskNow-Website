@@ -31,6 +31,16 @@ plugins:
   - jekyll-feed
   - jekyll-rdf
 
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
 
 jekyll_rdf:
     path: "rdf-data/sda.tech.ttl"
