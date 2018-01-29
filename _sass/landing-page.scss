@@ -10,6 +10,11 @@
 	}
 }
 
+.embededVideo {
+	width: 790px;
+	height: 540px;
+}
+
 .testimonial {
 	background: #f5f5f5;
 	margin: 0;
@@ -42,7 +47,7 @@
 	}
 }
 
-
+// media querries for screen effecting HTML5 DOM ELEMENTS
 @media #{$desktop} {
 	.flex {
 		@include flexbox;
@@ -56,7 +61,39 @@
 		}
 	}
 
+	.embededVideo {
+		width: 760px;
+		height: 540px;
+	}
+
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
 	}
+}
+
+@media #{$tablet} {
+
+	.embededVideo {
+		width: 446px;
+		height: 340px;
+	}
+
+}
+
+@media #{$mobile} {
+
+	.embededVideo {
+		width: 306px;
+		height: 240px;
+	}
+
+}
+
+@media #{$mid-point} {
+
+	.embededVideo {
+		width: 612px;
+		height: 480px;
+	}
+
 }

@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: AskNow Website
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -55,7 +56,12 @@ jekyll_rdf:
     class_template_mappings:
         "http://xmlns.com/foaf/0.1/Person" : "person.html"
     instance_template_mappings:
+        "http://sda.tech/project" : "projects.html"
+        "http://sda.tech" : "home.html"
         "http://sda.tech/people" : "people.html"
+        "http://sda.tech/publication" : "publications.html"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

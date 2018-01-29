@@ -1,0 +1,19 @@
+---
+layout: default
+rdf_prefix_path: sda.tech.pref
+---
+
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<h2>Our Portfolio</h2>
+			<p class="subtext">We have been working on different academic and industrial projects</p>
+			<!--QUERY TO GET ALL THE PROJECTS  -->
+			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project dct:abstract ?abstract . ?Project foaf:depiction ?image .
+		      ?Project foaf:logo ?logo . ?Person foaf:title ?title .} {% endcapture %} {% assign SDAPeople = page.rdf | sparql_query: query %}
+      <!--QUERY TO GET PROJECTS ASSOCIATED WITH ASKNOW-->
+      
+      <br/>
+		</div>
+	</section>
+</div>

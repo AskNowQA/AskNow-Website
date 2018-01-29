@@ -1,24 +1,16 @@
-- name: Pricing
-  link: /pricing/
+- name: Home
+  link: rdfsites/http/sda.tech/home/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: Projects
+  link: rdfsites/http/sda.tech/projects/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
+- name: People
+  link: rdfsites/http/sda.tech/people/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
+- name: Publications
+  link: rdfsites/http/sda.tech/publications/
   new_window: false
   highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
-  highlight: true

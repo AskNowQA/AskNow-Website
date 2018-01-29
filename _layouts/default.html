@@ -1,3 +1,8 @@
+---
+rdf_prefix_path: sda.tech.pref
+layout: default
+---
+
 <!doctype html>
 
 <html lang="en">
@@ -23,11 +28,14 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Hydra Logo" width="95" height="33" /></a></div>
+				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/logo.png" alt="Hydra Logo" width="95" height="33" /></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
 		{{ content }}
+		<br/>
+		<br/>
+
 		<footer>
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
@@ -44,7 +52,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} AskNow.Org • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
 			</div>
 		</footer>
 		<script>

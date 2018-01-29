@@ -202,7 +202,7 @@ sdaperson:JonDoe a foaf:Person, sdatech:intern ;
                   schema:location <http://aksw.org/Address/InfAI> ;
                   cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
                   sda:publication sdapublication:Publication1 ;
-                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  sda:group sdagroup:StructuredMachineLearning ;
                   foaf:currentProject sdaproject:BigDataEurope .
 
 ##############################Former Members#############################
@@ -228,7 +228,7 @@ sdaperson:SteveJobs a foaf:Person, sdatech:formerMember ;
                   schema:location <http://aksw.org/Address/InfAI> ;
                   cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
                   sda:publication sdapublication:Publication1 ;
-                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  sda:group sdagroup:StructuredMachineLearning ;
                   foaf:currentProject sdaproject:BigDataEurope .
 
 #######################################
@@ -544,95 +544,6 @@ sdathesis:HangtongThesis a dct:BibliographicResource, bibo:Thesis, sdatech:openT
 #######################################
 #######################################
 
-ex:AskNow a ex:project ;
-          rdfs:label "AskNow" ;
-          foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-          foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-          ex:description "The power of the Qrowd combines with RDF" ;
-          ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-          ex:twitter "" ;
-          ex:homepage "" ;
-          ex:source "" ;
-          ex:download "" ;
-          ex:partners ex:agroknow ;
-          ex:opensource "Open Source" .
-
-
-ex:DLLearner a ex:project ;
-             rdfs:label "DL-Learner" ;
-             foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-             foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-             ex:description "The power of the Qrowd combines with RDF" ;
-             ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-             ex:twitter "" ;
-             ex:homepage "" ;
-             ex:source "" ;
-             ex:download "" ;
-             ex:partners ex:agroknow ;
-             ex:opensource "Open Source" .
-
-ex:DeFacto a ex:project ;
-           rdfs:label "DeFacto" ;
-           foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-           foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/candidate1.png> ;
-           ex:description "Deep Fact Validation" ;
-           ex:longdescription "DeFacto (Deep Fact Validation) is an algorithm for validating statements by finding confirming sources for it on the web. It takes a statement (such as “Jamaica Inn was directed by Alfred Hitchcock”) as input and then tries to find evidence for the truth of that statement by searching for information in the web." ;
-           ex:twitter "undefined" ;
-           ex:homepage "undefined" ;
-           ex:source "http://defacto.aksw.org/" ;
-           ex:download "undefined" ;
-           ex:partners ex:agroknow ;
-           ex:opensource "Open Source" .
-
-
-ex:GEISER a ex:project ;
-          rdfs:label "GEISER" ;
-          foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-          foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/GEISER.jpg> ;
-          ex:description "Von Sensordaten zu internetbasierten Geo-Services" ;
-          ex:longdescription "GEISER develops an open cloud-based platform for integrating geospatial data with sensor data from cyberphysical systems based on semantic and Big Data technologies." ;
-          ex:funded "Funded Project" ;
-          ex:twitter "undefined" ;
-          ex:homepage "https://projekt-geiser.de/en/welcome/" ;
-          ex:source "undefined" ;
-          ex:download "undefined" ;
-          ex:partners ex:agroknow .
-
-ex:HOBBIT a ex:project ;
-          rdfs:label "HOBBIT" ;
-          foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-          foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/cropped-Hobbit_Logo_Claim_2015_rgb_300_130.png> ;
-          ex:publication ex:Publication2 ;
-          ex:description "Holistic Benchmarking of Big Linked Data" ;
-          ex:longdescription "HOBBIT is a European project that develops a holistic open-source platform and industry-grade benchmarks for benchmarking big linked data." ;
-          ex:funded "Funded Project" ;
-          ex:twitter "undefined" ;
-          ex:homepage "http://project-hobbit.eu/" ;
-          ex:source "https://github.com/hobbit-project" ;
-          ex:download "undefined" ;
-          ex:partners ex:agroknow .
-
-ex:InformationRetrieval a ex:course ;
-                        rdfs:label "Information Retrieval" ;
-                        foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-                        ex:description "The Web accompanies the transition from an industrial to an information society and provides the infrastructure for a new quality of information handling regarding acquisition as well as provisioning " ;
-                        ex:homepage "http://mex.aksw.org/" ;
-                        ex:language "English" ;
-                        ex:winter2017 "Summer Semester 2017" .
-
-
-ex:MEXVocabulary a ex:project ;
-                 rdfs:label "MEX Vocabulary" ;
-                 foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-                 foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/candidate1.png> ;
-                 ex:description "A Light-Weight Interchange Format for Machine Learning Experiments" ;
-                 ex:longdescription "MEX Vocabulary: A Light-Weight Interchange Format for Machine Learning Experiments" ;
-                 ex:twitter "undefined" ;
-                 ex:homepage "http://mex.aksw.org/" ;
-                 ex:source "https://github.com/METArchive/mex-vocabulary" ;
-                 ex:download "undefined" ;
-                 ex:partners ex:agroknow ;
-                 ex:opensource "Open Source" .
 
 ex:Mainnav a ex:navigation ;
            rdf:_1 sdatech:about ;
@@ -646,21 +557,9 @@ ex:Mainnav a ex:navigation ;
            rdf:_9 sdatech:partners .
 
 
-ex:Publication1 a ex:publication ;
-                rdfs:label "business opportunities" ;
-                dc:title "Powerful rewards as milestone towards accelerated control-based business opportunities" ;
-                ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " ;
-                dc:date "2012-05-05" ;
-                ex:link "http://mex.aksw.org/" ;
-                dc:author ex:AlfredEel .
-
-ex:Publication2 a ex:publication ;
-                rdfs:label "net value" ;
-                dc:title "Global perspectives for objective driven net value" ;
-                ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " ;
-                dc:date "2012-09-05" ;
-                ex:link "http://mex.aksw.org/" ;
-                dc:author ex:CorneliusCrab, ex:LarryLobster, ex:AlfredEel .
+##########################Pubs###############################################
+#############################################################################
+#############################################################################
 
 sdapublication:Publication1 a bibo:Article ;
                 dc:title "Global perspectives for objective driven net value" ;
@@ -689,169 +588,13 @@ sdapublication:Publication5 a bibo:Article ;
                 foaf:Organization "FhG" ;
                 dc:author sdaperson:RajKapoor .
 
-ex:QROWD a ex:project ;
-         rdfs:label "QROWD" ;
-         foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-         foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/cropped-Hobbit_Logo_Claim_2015_rgb_300_130.png> ;
-         ex:description "The power of the Qrowd combines with RDF" ;
-         ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-         ex:funded "Funded Project" ;
-         ex:twitter "undefined" ;
-         ex:homepage "http://qrowd-project.eu/" ;
-         ex:source "undefined" ;
-         ex:download "undefined" ;
-         ex:partners ex:agroknow .
 
-ex:SANSAStack a ex:project ;
-              rdfs:label "SANSA Stack" ;
-              foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-              foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-              ex:description "The power of the Qrowd combines with RDF" ;
-              ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-              ex:twitter "" ;
-              ex:homepage "" ;
-              ex:source "" ;
-              ex:download "" ;
-              ex:partners ex:agroknow ;
-              ex:opensource "Open Source" .
-
-ex:SLIPO a ex:project ;
-         rdfs:label "SLIPO" ;
-         foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-         foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/Slipo_vertical_1.png> ;
-         ex:description "Scalable Linking and Integration of Big POI data" ;
-         ex:longdescription "SLIPO aim is to transfer the research output generated by our work in project GeoKnow, to the specific challenge of POI data, introducing validated and cost-effective innovations across their value chain." ;
-         ex:funded "Funded Project" ;
-         ex:twitter "undefined" ;
-         ex:homepage "http://www.slipo.eu/" ;
-         ex:source "https://github.com/slipo-eu" ;
-         ex:download "undefined" ;
-         ex:partners ex:agroknow .
-
-ex:SMLBench a ex:project ;
-            rdfs:label "SML-Bench" ;
-            foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-            foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/11/sml-bench.jpg> ;
-            ex:description "A Benchmark for Symbolic Supervised Machine Learning from Expressive Structured Data" ;
-            ex:longdescription "The ultimate goal of SML-Bench is to foster research in machine learning from structured data as well as increase the reproducibility and comparability of algorithms in that area. This is important, since a) the preparation of machine learning tasks in that area involves a significant amount of work and b) there are hardly any cross comparisions across languages as this requires data conversion processes. " ;
-            ex:twitter "undefined" ;
-            ex:homepage "http://sml-bench.sda.tech/" ;
-            ex:source "https://github.com/SmartDataAnalytics/SML-Bench" ;
-            ex:download "https://github.com/SmartDataAnalytics/SML-Bench" ;
-            ex:partners ex:agroknow ;
-            ex:opensource "Open Source" .
-
-ex:SemanticDataWebTechnologies a ex:course ;
-                               rdfs:label "Semantic Data Web Technologies" ;
-                               foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-                               ex:description "The Web accompanies the transition from an industrial to an information society and provides the infrastructure for a new quality of information handling regarding acquisition as well as provisioning " ;
-                               ex:homepage "http://mex.aksw.org/" ;
-                               ex:language "English" ;
-                               ex:summer2017 "Summer Semester 2017" .
-
-ex:WAVE a ex:project ;
-        rdfs:label "WAVE is a Project" ;
-        foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-        foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-        ex:description "The power of the Qrowd combines with RDF" ;
-        ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-        ex:twitter "" ;
-        ex:homepage "" ;
-        ex:source "" ;
-        ex:download "" ;
-        ex:partners ex:agroknow ;
-        ex:incubator "Incubator Project" .
-
-ex:SHORE a ex:project ;
-        rdfs:label "WAVE" ;
-        foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-        foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-        ex:description "The power of the Qrowd combines with RDF" ;
-        ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-        ex:twitter "" ;
-        ex:homepage "" ;
-        ex:source "" ;
-        ex:download "" ;
-        ex:partners ex:agroknow ;
-        ex:incubator "Incubator Project" .
-
-ex:CORALS a ex:project ;
-        rdfs:label "WAVE" ;
-        foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-        foaf:depiction <https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Optopus-Logo-For-Free.jpeg> ;
-        ex:description "The power of the Qrowd combines with RDF" ;
-        ex:longdescription "QROWD offers local government and transportation businesses innovative solutions to improve mobility, reduce traffic congestion and make navigation safer and more efficient. QROWD will integrate different sources of data – maximizing the value of Big Data in planning and managing urban traffic and mobility." ;
-        ex:twitter "" ;
-        ex:homepage "" ;
-        ex:source "" ;
-        ex:download "" ;
-        ex:partners ex:agroknow ;
-        ex:incubator "Incubator Project" .
-
-ex:abc a ex:thesisItem ;
-       rdfs:label "Distributed in-memory Processig" ;
-       foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-       ex:longdescription "SPARQL queriessearch for specified patterns in RDF data using triple patterns as building blocks. Although many different solutions for efficient querying have been proposed in the past. We want to explore the novel tensor based RDF representations and use them for fast and scalable Querying on large scale cluster. We will use a computational in-memory framework for distributed SPARQL query answering,based on the notion of degree of freedom of a triple. This algorithm relies on a general model of RDF graph based on the firstprinciples of linear algebra, in particular ontensorial calculus." ;
-       ex:homepage "http://ai4bd.com/?page_id=4" ;
-       ex:level "Bachelors,Master" ;
-       ex:open "Open" .
-
-ex:bad a ex:teaching ;
-       rdfs:label "bad" ;
-       ex:description "The future of SHared Ontology REfining for enterprise business" ;
-       ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
-
-ex:comfort a ex:teaching ;
-           rdfs:label "comfort" ;
-           ex:description "The future of SHared Ontology REfining for enterprise business" ;
-           ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
-
-ex:disSparql a ex:thesisItem ;
-             rdfs:label "Distributed in-memory SPARQL Processing" ;
-             foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-             ex:longdescription "SPARQL queriessearch for specified patterns in RDF data using triple patterns as building blocks. Although many different solutions for efficient querying have been proposed in the past. We want to explore the novel tensor based RDF representations and use them for fast and scalable Querying on large scale cluster. We will use a computational in-memory framework for distributed SPARQL query answering,based on the notion of degree of freedom of a triple. This algorithm relies on a general model of RDF graph based on the firstprinciples of linear algebra, in particular ontensorial calculus." ;
-             ex:homepage "http://ai4bd.com/?page_id=4" ;
-             ex:level "Bachelors,Master" ;
-             ex:open "Open" .
-
-ex:easy a ex:teaching ;
-        rdfs:label "easy" ;
-        ex:description "The future of SHared Ontology REfining for enterprise business" ;
-        ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
-ex:entRes a ex:thesisItem ;
-          rdfs:label "Entity Resolution of Unfinished topics" ;
-          foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-          ex:longdescription "Entity resolution is the task of identifying all mentions that represent the same real-world entity within a knowledge base or across multiple knowledge bases. We address the problem of performing entity resolution on RDF graphs containing multiple types of nodes, using the links between instances of different types to improve the accuracy." ;
-          ex:homepage "http://ai4bd.com/?page_id=4" ;
-          ex:level "B,M" ;
-          ex:closed "Closed" .
-
-ex:entResOne a ex:thesisItem ;
-             rdfs:label "Entity Resolution of Closed Subjects" ;
-             foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-             ex:longdescription "Entity resolution is the task of identifying all mentions that represent the same real-world entity within a knowledge base or across multiple knowledge bases. We address the problem of performing entity resolution on RDF graphs containing multiple types of nodes, using the links between instances of different types to improve the accuracy." ;
-             ex:homepage "http://ai4bd.com/?page_id=4" ;
-             ex:level "B,M" ;
-             ex:closed "Closed" .
-
-ex:entityRes a ex:thesisItem ;
-             rdfs:label "Entity Resolution of particular Topics" ;
-             foaf:Person ex:OliverOctopus, ex:AlfredEel ;
-             ex:longdescription "Entity resolution is the task of identifying all mentions that represent the same real-world entity within a knowledge base or across multiple knowledge bases. We address the problem of performing entity resolution on RDF graphs containing multiple types of nodes, using the links between instances of different types to improve the accuracy." ;
-             ex:homepage "http://ai4bd.com/?page_id=4" ;
-             ex:level "B,M" ;
-             ex:closed "Closed" .
+################################################################################
+################################################################################
 
 sdatech:group a foaf:Document ;
          rdfs:label "Groups" .
 
-ex:inhouse a ex:job ;
-           rdfs:label "inhouse" ;
-           ex:description "The future of SHared Ontology REfining for enterprise business" ;
-           ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
 
 sdatech:job a foaf:Document ;
        rdfs:label "Jobs" .
@@ -859,25 +602,8 @@ sdatech:job a foaf:Document ;
 sdatech:contact a foaf:Document ;
       rdfs:label "Contact" .
 
-ex:linkeddata a ex:researchinterests ;
-              rdfs:label "linked data" ;
-              ex:description "The future of SHared Ontology REfining for enterprise business" ;
-              ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
-ex:opendata a ex:researchinterests ;
-            rdfs:label "open data" ;
-            ex:description "The future of SHared Ontology REfining for enterprise business" ;
-            ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
-ex:outhouse a ex:job ;
-            rdfs:label "outhouse" ;
-            ex:description "The future of SHared Ontology REfining for enterprise business" ;
-            ex:longdescription "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla suscipit nulla vel mollis. Aliquam erat volutpat. Nam et aliquam nisl. Ut sit amet pellentesque elit. Praesent sagittis tempus accumsan. In a nisi orci. Nullam at sagittis dolor. Sed nec auctor tellus. Phasellus ac magna ac mi posuere molestie. Integer dapibus venenatis nisl eget eleifend. Fusce ut pulvinar ipsum. Nulla elementum erat elit, et tempor massa aliquet vel. Vestibulum metus enim, tempus sed ligula et, pellentesque auctor lacus. Vivamus vel elit non justo rutrum ullamcorper vel et massa. Duis libero nisi, porta ullamcorper justo eu, imperdiet mattis ex. Fusce rhoncus. " .
-
 sdatech:partners a foaf:Document ;
             rdfs:label "Partners" .
-
-
 
 sdatech:people a foaf:Document ;
           rdfs:label "People" .
@@ -898,8 +624,6 @@ sdatech:thesis a foaf:Document ;
           ex:longdescription "Please note that the list below is only a small sample of possible topics and ideas. Please contact us to discuss further, to find new topics, or to suggest a topic of your own." .
 
 
-ex:thesisItem a ex:thesis ;
-              rdfs:label "Thesis Item" .
 
 rdf:_1 a rdfs:ContainerMembershipProperty ;
        rdfs:label "1" .
