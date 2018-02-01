@@ -1,39 +1,21 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Home
+    link: rdfsites/http/sda.tech/home/
+  - name: People
+    link: rdfsites/http/sda.tech/projects/
+  - name: Projects
+    link: rdfsites/http/sda.tech/people/
+  - name: Publications
+    link: rdfsites/http/sda.tech/publications/
+- links:
   - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
-- links:
-  - name: Login
-    link: /
+    link: http://sda.cs.uni-bonn.de/?s=asknow
     new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
+  - name: SDA Group
+    link: http://sda.cs.uni-bonn.de/
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com
-    new_window: true
-    social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com
+    link: https://twitter.com/AskNowQA
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false

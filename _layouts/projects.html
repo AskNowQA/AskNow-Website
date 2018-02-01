@@ -9,10 +9,24 @@ rdf_prefix_path: sda.tech.pref
 			<h2>Our Portfolio</h2>
 			<p class="subtext">We have been working on different academic and industrial projects</p>
 			<!--QUERY TO GET ALL THE PROJECTS  -->
-			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project dct:abstract ?abstract . ?Project foaf:depiction ?image .
-		      ?Project foaf:logo ?logo . ?Person foaf:title ?title .} {% endcapture %} {% assign SDAPeople = page.rdf | sparql_query: query %}
+			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project dct:abstract ?abstract . ?Project foaf:logo ?logo .
+		      ?Project sda:twitter ?twitter . ?Project sda:homepage ?homepage . ?Project sda:source ?source . } {% endcapture %} {% assign SDAProjects = page.rdf | sparql_query: query %}
       <!--QUERY TO GET PROJECTS ASSOCIATED WITH ASKNOW-->
-      
+			{% capture query %} SELECT ?Project ?title ?group ?groupName WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project sda:group ?group . ?group rdfs:label ?groupName .
+			} {% endcapture %} {% assign projectsWithGroups = page.rdf | sparql_query: query %}
+
+			<div class="plans">
+				{% for projects in SDAProjects %}
+					{% for groupBelongsToProject in projectsWithGroups %}
+						{% capture groupname %}{{groupBelongsToProject.groupName}}{% endcapture %}
+						{% if projects.title == groupBelongsToProject.title and groupname == "Semantic Question Answering"%}
+							<ul class="plan">
+								{% include project-card.html title=projects.title abstract=projects.abstract homepage=projects.homepage twitter=projects.twitter source=projects.source logo=projects.logo %}
+							</ul>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+			</div>
       <br/>
 		</div>
 	</section>

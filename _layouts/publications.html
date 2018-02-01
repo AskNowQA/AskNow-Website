@@ -3,4 +3,99 @@ layout: default
 rdf_prefix_path: sda.tech.pref
 ---
 
-<h2>M</h2>
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<h2>Our Publications</h2>
+			<p class="subtext">We have notable amount of Publications</p>
+			<!--QUERY TO GET ALL THE Publications  -->
+			{% capture query %} SELECT ?Publication ?title ?date WHERE{ ?Publication a bibo:Article . ?Publication dc:title ?title .
+					?Publication dc:date ?date . } {% endcapture %} {% assign sdapubs = page.rdf | sparql_query: query %}
+			<!--QUERY TO GET PUBLICATIONS ASSOCIATED WITH Semantic Question and Answering Group-->
+      {% capture query %} SELECT ?Publication ?title ?group ?groupName WHERE{ ?Publication a bibo:Article . ?Publication dc:title ?title .
+          ?Publication sda:group ?group . ?group rdfs:label ?groupName . } {% endcapture %} {% assign pubsWithGroups = page.rdf | sparql_query: query %}
+			<!--QUERY TO GET THE AUTHORS ASSOCIATED WITH THE GROUP  -->
+			<!-- {% capture query %} SELECT ?Publication ?title ?author ?authorfName ?authorlName WHERE{ ?Publication a bibo:Article . ?Publication dc:title ?title . ?Publication dc:author ?author .
+		      ?Publication foaf:firstName ?authorfName . ?Publication foaf:familyName ?authorlName .  } {% endcapture %} {% assign SDAPublications = page.rdf | sparql_query: query %} -->
+					<!-- {{sdapubs}} -->
+			 <table id="publicationTable">
+				 <tr>
+					 <th>Year</th>
+					 <th>Type</th>
+					 <th>Publication</th>
+				 </tr>
+				 <tr>
+					 <td>
+						 2017
+					 </td>
+					 <td>
+						 Conference
+					 <td>
+						<a href="http://jens-lehmann.org/files/2017/iswc_pd_lcquad.pdf" target="_blank"> How to Revert Question Answering on Knowledge Graphs</a> by Gaurav Maheshwari, Mohnish Dubey, Priyansh Trivedi, and Jens Lehmann in Proceedings of 16th International Semantic Web Conference – Poster & Demos<a href="https://www.bibsonomy.org/bibtex/2c2bcdab20424d0c8e166943e1cd2a8af/aksw" target="_blank">[BibTex]</a>
+				 	 </td>
+				 </tr>
+				 <tr>
+					 <td>
+						 2017
+					 </td>
+					 <td>
+						 Conference
+					 <td>
+						 	<a href="http://jens-lehmann.org/files/2017/iswc_lcquad.pdf" target="_blank">A Corpus for Complex Question Answering over Knowledge Graphs</a> by Priyansh Trivedi, Gaurav Maheshwari, Mohnish Dubey, and Jens Lehmann in Proceedings of 16th International Semantic Web Conference – Resources Track (ISWC’2017) <a href="https://www.bibsonomy.org/bibtex/2c8941c5b239a812b8435a381ec8438e6/aksw" target="_blank">[BibTex]</a>
+				 	 </td>
+				 </tr>
+				 <tr>
+					 <td>
+						 2017
+					 </td>
+					 <td>
+						 Journal
+					 <td>
+						 <a href="http://www.semantic-web-journal.net/system/files/swj1375.pdf" target="_blank">Survey on Challenges of Question Answering in the Semantic Web</a> by Konrad Höffner, Sebastian Walter, Edgard Marx, Ricardo Usbeck, Jens Lehmann, and Axel-Cyrille Ngonga Ngomo in Semantic Web Journal <a href="https://www.bibsonomy.org/bibtex/2f0401ca8adebe1b7edfa36255ea1140d/aksw" target="_blank">[BibTex]</a>
+				 	 </td>
+				 </tr>
+				 <tr>
+					 <td>
+						 2017
+					 </td>
+					 <td>
+						 Conference
+					 <td>
+						 <a href="http://jens-lehmann.org/files/2017/www_nn_factoid_qa.pdf" target="_blank">Neural Network-based Question Answering over Knowledge Graphs on Word and Character Level</a> by Denis Lukovnikov, Asja Fischer, Soeren Auer, and Jens Lehmann in Proceedings of the 26th international conference on World Wide Web <a href="https://www.bibsonomy.org/bibtex/244eaa5ad224bd2caa770c8df48530b26/aksw" target="_blank">[BibTex]</a>
+				 	 </td>
+				 </tr>
+				 <tr>
+					 <td>
+						 2016
+					 </td>
+					 <td>
+						 Conference
+					 <td>
+						 <a href="http://jens-lehmann.org/files/2016/eswc_asknow.pdf" target="_blank">AskNow: A Framework for Natural Language Query Formalization in SPARQL</a> by Mohnish Dubey, Sourish Dasgupta, Ankit Sharma, Konrad Hoffner, and Jens Lehmann in Proc. of the Extended Semantic Web Conference 2016 <a href="https://www.bibsonomy.org/bibtex/208f5ea5f2915345506c6d35d2b6b5374/aksw" target="_blank">[BibTex]</a>
+				 	 </td>
+				 </tr>
+				 <tr>
+					 <td>
+						 2016
+					 </td>
+					 <td>
+						 Conference
+					 <td>
+						 CubeQA—Question Answering on RDF Data Cubes by Konrad Höffner, Jens Lehmann, and Ricardo Usbeck inProceedings of the 15th International Semantic Web Conference (ISWC2016) [BibTex]
+				 	 </td>
+				 </tr>
+				 <!-- {% for publications in pubs %}
+	 				{% for groupsOfPublications in pubsWithGroups %}
+	 					{% capture groupname %}{{groupsOfPublications.groupName}}{% endcapture %}
+	 					{% if publications.title == groupsOfPublications.title and groupname == "Semantic Question Answering"%}
+	             {{publications.title}}
+	             <br/>
+	 						{% include publications-card.html title=projects.title abstract=projects.abstract homepage=projects.homepage twitter=projects.twitter source=projects.source logo=projects.logo %}
+	 					{% endif %}
+	 				{% endfor %}
+	 			{% endfor %} -->
+			 </table>
+      <br/>
+		</div>
+	</section>
+</div>

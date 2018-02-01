@@ -1,0 +1,19 @@
+<li>
+  <!-- <div class="square-image"><img src="{{include.image}}" alt="{{ include.name }}"/></div>
+  <div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{include.title}} {{ include.firstname }} {{include.name}}</a></div>
+  <div class="position">{{ include.status }}</div> -->
+  <div class="project-card">
+    <div class="project-logo"><img src="{{include.logo}}" alt="{{include.title}}" /></div>
+    <br/>
+    <div class="project-title"><h4>{{include.title}}</h4></div>
+    <div class="project-abstract">{{include.abstract}}</div>
+    <br/><br/>
+    <div class="project-links">
+        <div class="pagination">
+          <a href="{{include.source}}" target="_blank"><i class="fa fa-github margin-icon" aria-hidden="true"> Source Code</i></a>
+          <a href="{{include.homepage}}" target="_blank"><i class="fa fa-globe margin-icon" aria-hidden="true"> Homepage</i></a>
+        </div>
+    </div>
+  </div>
+  <br/><br/>
+</li>

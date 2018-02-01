@@ -5,7 +5,7 @@
 
 	.plan {
 		list-style: none;
-		padding: 0;
+		padding: 24px;
 		margin: 0 10px 50px 10px;
 		text-align: center;
 		border: 1px solid #eee;
@@ -45,6 +45,22 @@
 				font-weight: normal;
 			}
 		}
+
+		.project-abstract{
+			text-align: justify;
+		}
+
+		.project-links{
+			text-align: left;
+		}
+
+	}
+}
+
+.project-card {
+	img {
+		width: 40%;
+		height: 10%;
 	}
 }
 
@@ -67,5 +83,28 @@
 		padding: 0;
 		margin: 0;
 
+	}
+}
+
+.pagination {
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+}
+
+.pagination a {
+    color: $brand-color;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+		outline: 0px;
+
+
+}
+
+.pagination {
+	a:hover{
+		transition: background-color .4s;
+		background-color: #ddd;
 	}
 }

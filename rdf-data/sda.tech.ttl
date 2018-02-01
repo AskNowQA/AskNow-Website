@@ -48,76 +48,23 @@
 ##########Person Model#################
 #######################################
 
-##############################PHD Students#########################
-sdaperson:GezimSejdiu a foaf:Person, sdatech:phdStudent ;
-                   rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
-                   owl:sameAs <http://people.comiles.eu/natanael> ;
-                   sda:publicationsTag "aX" ;
-                   sda:room "A120" ;
-                   foaf:familyName "Sejdiu" ;
-                   foaf:name "Gezim" ;
-                   foaf:nick "Gezim" ;
-                   foaf:mbox <mailto:Alfred@aksw.org> ;
-                   foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/14cb4e4.jpg> ;
-                   foaf:phone <tel:+49-341-123456789> ;
-                   foaf:firstName "Gezim" ;
-                   foaf:title "" ;
-                   foaf:status "Phd Student" ;
-                   sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
-                   sda:website "http://jens-lehmann.org/" ;
-                   sda:twitter "http://jens-lehmann.org/" ;
-                   sda:facebook "http://jens-lehmann.org/" ;
-                   ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
-                   schema:location <http://aksw.org/Address/InfAI> ;
-                   cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
-                   sda:publication sdapublication:Publication1 ;
-                   sda:group sdagroup:SemanticQuestionAnswering ;
-                   foaf:currentProject sdaproject:BigDataEurope .
-
-
-##############################Professors#########################
-sdaperson:JensLehmann a foaf:Person, sdatech:professor ;
-                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
-                  owl:sameAs <http://people.comiles.eu/natanael> ;
-                  sda:publicationsTag "aX" ;
-                  sda:room "A109" ;
-                  foaf:familyName "Lehmann" ;
-                  foaf:name "Jens" ;
-                  foaf:nick "Lehmann" ;
-                  foaf:mbox <mailto:Alfred@aksw.org> ;
-                  foaf:depiction <http://jens-lehmann.org/images/passbild_lehmann.jpg> ;
-                  foaf:phone <tel:+49-341-123456789> ;
-                  foaf:firstName "Jens" ;
-                  foaf:title "Dr." ;
-                  foaf:status "Head of Department" ;
-                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
-                  sda:website "http://jens-lehmann.org/" ;
-                  sda:twitter "http://jens-lehmann.org/" ;
-                  sda:facebook "http://jens-lehmann.org/" ;
-                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
-                  schema:location <http://aksw.org/Address/InfAI> ;
-                  cv:aboutPerson "Prof. Dr. Jens Lehmann (http://www.jens-lehmann.org) is a Full Professor at the University of Bonn and a researcher at the University of Leipzig where he is co-leading the AKSW group with 40 researchers. He obtained a PhD with grade summa cum laude at the University of Leipzig in 2010 and a master degree in Computer Science from Technical University of Dresden in 2006. His research interests involve Semantic Web, machine learning and knowledge representation. He is founder, leader or contributor of several open source projects, including DL-Learner, DBpedia, LinkedGeoData and ORE. He works/worked in several funded projects, e.g. GeoKnow (EU STREP, coordinator), LOD2 (EU IP, work package lead), LATC (EU STREP, lead for University of Leipzig) and SoftWiki (BmBF). Prof. Dr. Jens Lehmann authored more than 70 articles in international journals and conferences cited more than 9000 times according to Google Scholar." ;
-                  sda:publication sdapublication:Publication1 ;
-                  sda:group sdagroup:SemanticQuestionAnswering ;
-                  foaf:currentProject sdaproject:BigDataEurope .
-
 ##############################Senior Researchers#########################
-sdaperson:NickBabich a foaf:Person, sdatech:seniorResearcher ;
+sdaperson:IoannaLytra a foaf:Person, sdatech:seniorResearcher ;
                   rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
                   owl:sameAs <http://people.comiles.eu/natanael> ;
                   sda:publicationsTag "aX" ;
                   sda:room "C132" ;
-                  foaf:familyName "Babich" ;
-                  foaf:name "Nick" ;
-                  foaf:nick "Nick" ;
+                  foaf:familyName "Lytra" ;
+                  foaf:name "Ioanna" ;
+                  foaf:nick "Ioanna" ;
                   foaf:mbox <mailto:Alfred@aksw.org> ;
-                  foaf:depiction <https://pbs.twimg.com/profile_images/912277344152440832/8xWfh0KR_400x400.jpg> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/06/Ioanna.jpg> ;
                   foaf:phone <tel:+49-341-123456789> ;
-                  foaf:firstName "Alexander" ;
-                  foaf:title "" ;
-                  foaf:status "Open Scholarly Researcher" ;
+                  foaf:firstName "Ioanna" ;
+                  foaf:title "Dr. " ;
+                  foaf:status "Senior Researcher / Mentor" ;
                   sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
-                  sda:website "http://jens-lehmann.org/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/dr-ioanna-lytra/" ;
                   sda:twitter "http://jens-lehmann.org/" ;
                   sda:facebook "http://jens-lehmann.org/" ;
                   ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
@@ -127,23 +74,357 @@ sdaperson:NickBabich a foaf:Person, sdatech:seniorResearcher ;
                   sda:group sdagroup:SemanticQuestionAnswering ;
                   foaf:currentProject sdaproject:BigDataEurope .
 
+
+
+sdaperson:GiulioNapolitano a foaf:Person, sdatech:seniorResearcher ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "C132" ;
+                  foaf:familyName "Napolitano" ;
+                  foaf:name "Giulio" ;
+                  foaf:nick "Giulio" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/03/FotoFraunhofer.png> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Giulio" ;
+                  foaf:title "" ;
+                  foaf:status "Expert Group Leader" ;
+                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/dr-giulio-napolitano/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+##############################Professors#########################
+sdaperson:JensLehmann a foaf:Person, sdatech:professor ;
+                  rdfs:seeAlso <> ;
+                  owl:sameAs <> ;
+                  sda:publicationsTag "Jens" ;
+                  sda:room "A109" ;
+                  foaf:familyName "Lehmann" ;
+                  foaf:name "Jens" ;
+                  foaf:nick "Lehmann" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://jens-lehmann.org/images/passbild_lehmann.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Jens" ;
+                  foaf:title "Prof. Dr." ;
+                  foaf:status "Mentor" ;
+                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/prof-dr-jens-lehmann/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Prof. Dr. Jens Lehmann (http://www.jens-lehmann.org) is a Full Professor at the University of Bonn and a researcher at the University of Leipzig where he is co-leading the AKSW group with 40 researchers. He obtained a PhD with grade summa cum laude at the University of Leipzig in 2010 and a master degree in Computer Science from Technical University of Dresden in 2006. His research interests involve Semantic Web, machine learning and knowledge representation. He is founder, leader or contributor of several open source projects, including DL-Learner, DBpedia, LinkedGeoData and ORE. He works/worked in several funded projects, e.g. GeoKnow (EU STREP, coordinator), LOD2 (EU IP, work package lead), LATC (EU STREP, lead for University of Leipzig) and SoftWiki (BmBF). Prof. Dr. Jens Lehmann authored more than 70 articles in international journals and conferences cited more than 9000 times according to Google Scholar." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+##############################PHD Students#########################
+sdaperson:MohnishDubey a foaf:Person, sdatech:phdStudent ;
+                   rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                   owl:sameAs <http://people.comiles.eu/natanael> ;
+                   sda:publicationsTag "aX" ;
+                   sda:room "A120" ;
+                   foaf:familyName "Dubey" ;
+                   foaf:name "Mohnish" ;
+                   foaf:nick "Mohnish" ;
+                   foaf:mbox <mailto:Alfred@aksw.org> ;
+                   foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/05/mohnish.jpg> ;
+                   foaf:phone <tel:+49-341-123456789> ;
+                   foaf:firstName "Mohnish" ;
+                   foaf:title "" ;
+                   foaf:status "Phd Student" ;
+                   sda:linkedin "" ;
+                   sda:website "http://sda.cs.uni-bonn.de/people/mohnish-dubey/" ;
+                   sda:twitter "http://jens-lehmann.org/" ;
+                   sda:facebook "http://jens-lehmann.org/" ;
+                   ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                   schema:location <http://aksw.org/Address/InfAI> ;
+                   cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                   sda:publication sdapublication:Publication1 ;
+                   sda:group sdagroup:SemanticQuestionAnswering ;
+                   foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:HamidZafar a foaf:Person, sdatech:phdStudent ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Zafar" ;
+                  foaf:name "Hamid" ;
+                  foaf:nick "Hamid" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/04/ProShot_20170318_2054291044x1355.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Hamid" ;
+                  foaf:title "" ;
+                  foaf:status "Phd Student" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/hamid-zafar/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:DebanjanChaudhuri	 a foaf:Person, sdatech:phdStudent ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Chaudhuri" ;
+                  foaf:name "Debanjan" ;
+                  foaf:nick "Debanjan" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/06/chaudhuri_debanjan_240x240.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Debanjan" ;
+                  foaf:title "" ;
+                  foaf:status "Phd Student" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/debanjan-chaudhuri/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+
+sdaperson:KonradHöffner	 a foaf:Person, sdatech:phdStudent ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Höffner" ;
+                  foaf:name "Konrad" ;
+                  foaf:nick "Konrad" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/05/konrad.hoeffner.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Konrad" ;
+                  foaf:title "" ;
+                  foaf:status "Phd Student" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/konrad-hoffner/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+
+sdaperson:DenisLukovnikov	 a foaf:Person, sdatech:phdStudent ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Lukovnikov" ;
+                  foaf:name "Denis" ;
+                  foaf:nick "Denis" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/06/Denis.png> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Denis" ;
+                  foaf:title "" ;
+                  foaf:status "Phd Student" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/denis-lukovnikov/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+
+sdaperson:GauravMaheshwari	 a foaf:Person, sdatech:studentAssistant ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Maheshwari" ;
+                  foaf:name "Gaurav" ;
+                  foaf:nick "Gaurav" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/04/Gaurav-Maheshwari.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Gaurav" ;
+                  foaf:title "" ;
+                  foaf:status "Student Assistant" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/gaurav-maheshwari/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:PriyanshTrivedi	a foaf:Person, sdatech:studentAssistant ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Trivedi" ;
+                  foaf:name "Priyansh" ;
+                  foaf:nick "Priyansh" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/04/Priyansh-Trivedi.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Priyansh" ;
+                  foaf:title "" ;
+                  foaf:status "Student Assistant" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/priyansh-trivedi/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+
+sdaperson:DebayanBanerjee		a foaf:Person, sdatech:studentAssistant ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Banerjee	" ;
+                  foaf:name "Debayan" ;
+                  foaf:nick "Debayan" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2017/06/Debayan.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Debayan" ;
+                  foaf:title "" ;
+                  foaf:status "Student Assistant" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/debayan-banerjee/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:KuldeepSingh a foaf:Person, sdatech:associateResearcher ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "A120" ;
+                  foaf:familyName "Singh	" ;
+                  foaf:name "Kuldeep" ;
+                  foaf:nick "Kuldeep" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAo0AAAAJDFhYzc1OTA0LThjMzItNGU1NS04ZDJkLTlhNzJiMGZmYjM5Ng.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Kuldeep" ;
+                  foaf:title "" ;
+                  foaf:status "Researcher" ;
+                  sda:linkedin "" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/kuldeep-singh/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Gëzim Sejdiu is a PhD Student & Research Associate at the University of Bonn. Gëzim’s research interest are in the area of Semantic Web, Big Data and Machine Learning. He is also interested in the area of distributed computing systems (Apache Spark, Apache Flink)." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+
 ##############################Associated Researchers#####################
-sdaperson:RajKapoor a foaf:Person, sdatech:associateResearcher ;
+sdaperson:JewgeniRose a foaf:Person, sdatech:associateResearcher ;
                   rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
                   owl:sameAs <http://people.comiles.eu/natanael> ;
                   sda:publicationsTag "aX" ;
                   sda:room "D123" ;
-                  foaf:familyName "Kapoor" ;
-                  foaf:name "Raj" ;
-                  foaf:nick "Raj" ;
+                  foaf:familyName "Rose" ;
+                  foaf:name "Jewgeni" ;
+                  foaf:nick "Jewgeni" ;
                   foaf:mbox <mailto:Alfred@aksw.org> ;
-                  foaf:depiction <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/04/Kister_Foto1439x200.jpg> ;
+                  foaf:depiction <https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAzwAAAAJGQxYThkZTYyLTkxOTktNDE1Mi05ZDk4LWJjZGI2NDU0YmI0ZA.jpg> ;
                   foaf:phone <tel:+49-341-123456789> ;
-                  foaf:firstName "Alexander" ;
+                  foaf:firstName "Jewgeni" ;
                   foaf:title "" ;
-                  foaf:status "Researching & Applying" ;
+                  foaf:status "Researcher" ;
                   sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
-                  sda:website "http://jens-lehmann.org/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/jewgeni-rose/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:AshwiniJayaKumar	 a foaf:Person, sdatech:associateResearcher ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "D123" ;
+                  foaf:familyName "Kumar" ;
+                  foaf:name "Ashwini Jaya" ;
+                  foaf:nick "Ashwini" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/0b0/208/29f9ed5.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Ashwini Jaya" ;
+                  foaf:title "" ;
+                  foaf:status "Researcher" ;
+                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/ashwini-jaya-kumar/" ;
+                  sda:twitter "http://jens-lehmann.org/" ;
+                  sda:facebook "http://jens-lehmann.org/" ;
+                  ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
+                  schema:location <http://aksw.org/Address/InfAI> ;
+                  cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
+                  sda:publication sdapublication:Publication1 ;
+                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  foaf:currentProject sdaproject:BigDataEurope .
+
+sdaperson:VinayModi		 a foaf:Person, sdatech:associateResearcher ;
+                  rdfs:seeAlso <http://fb.comiles.eu/?c=person&id=natanael> ;
+                  owl:sameAs <http://people.comiles.eu/natanael> ;
+                  sda:publicationsTag "aX" ;
+                  sda:room "D123" ;
+                  foaf:familyName "Modi" ;
+                  foaf:name "Vinay" ;
+                  foaf:nick "Vinay" ;
+                  foaf:mbox <mailto:Alfred@aksw.org> ;
+                  foaf:depiction <https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlpAAAAJDI2MDQ1ZjRmLWUyYTgtNDMxMS1hZDM5LTU1NzU5NDUxOGViMQ.jpg> ;
+                  foaf:phone <tel:+49-341-123456789> ;
+                  foaf:firstName "Vinay" ;
+                  foaf:title "" ;
+                  foaf:status "Researcher" ;
+                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
+                  sda:website "http://sda.cs.uni-bonn.de/people/vinay-modi/" ;
                   sda:twitter "http://jens-lehmann.org/" ;
                   sda:facebook "http://jens-lehmann.org/" ;
                   ov:businessCard <http://aksw.org/vCard/Hainstrasse> ;
@@ -176,7 +457,7 @@ sdaperson:CalvinHidermanns a foaf:Person, sdatech:studentAssistant ;
                   schema:location <http://aksw.org/Address/InfAI> ;
                   cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
                   sda:publication sdapublication:Publication1 ;
-                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  sda:group sdagroup:DeepLearning ;
                   foaf:currentProject sdaproject:BigDataEurope .
 
 ##############################Interns####################################
@@ -320,31 +601,60 @@ sdagroup:StructuredMachineLearning a aiiso:ResearchGroup, sdatech:Group ;
 #######################################
 
 ##########################Funded Project#######################
-sdaproject:BigDataEurope a foaf:Project, sdatech:fundedProject ;
-                 rdfs:label "Big Data Europe is a Big Project" ;
+sdaproject:Hobbit a foaf:Project, sdatech:fundedProject ;
+                 rdfs:label "Holistic Benchmarking of Big Linked Data" ;
                  sda:hookline "Von Sensordaten zu internetbasierten Geo-Services" ;
                  foaf:member sdaperson:JensLehmann, sdaperson:CalvinHidermanns ;
                  foaf:homepage <http://www.projekt-geiser.de> ;
-                 foaf:logo <http://sda.cs.uni-bonn.de/wp-content/uploads/2016/02/logo-BigDataEurope.png> ;
+                 foaf:logo <http://semantic-interoperability.org/playground/asknow/files/hobbit.png> ;
                  sda:funded "Funded Project" ;
                  sda:twitter "undefined" ;
-                 sda:homepage "http://www.big-data-europe.eu/" ;
-                 sda:source "https://github.com/big-data-europe" ;
+                 sda:homepage "http://project-hobbit.eu/" ;
+                 sda:source "https://github.com/hobbit-project" ;
                  sda:download "undefined" ;
                  site:content """* Duration: 2016–2019
  * Funding Programme: [BMWi - Smart Service Welt](http://www.bmwi.de/DE/Themen/Digitale-Welt/Digitale-Technologien/smart-service-welt.html \"BMWi - Smart Service Welt\")
  """^^sysont:Markdown, """Tasks
  =====
                   Leipzig University will develop processes for data acquisition, integration and fusion. For data acquisition, we will develop a unified, intelligent and extensible framework for representing data from diverse heterogeneous sources (automotive sensors, Twitter, OpenStreetMap, DBpedia, etc.) in RDF format. The acquired data has to be integrated to be useful for higher-value services. In order to process the high volume of complex geospatial data, we will develop scalable algorithms for efficiently detecting geospatial relations using machine learning techniques. Finally, we will survey if supervised machine learning can reduce the effort required for setting up data fusion pipelines. This will enable an efficient provisioning of fused data to geospatial services."""^^sysont:Markdown ;
-                 sda:publicationTag "geiser" ;
-                 dct:abstract "GEISER develops an open cloud-based platform for integrating geospatial data with sensor data from cyberphysical systems based on semantic and Big Data technologies." ;
+                 sda:publicationTag "hobbit" ;
+                 dct:abstract "HOBBIT is a European project that develops a holistic open-source platform and industry-grade benchmarks for benchmarking big linked data." ;
                  sdapartner:partner sdapartner:TomTomDevelopmentGermanyGmbHD, sdapartner:YellowMapD, sdapartner:Metaphacts ;
                  doap:maintainer sda:AxelNgonga ;
                  sda:relatedProject sdaproject:GeoKnow, sdaproject:BDE ;
                  pf:endDate "2019-02-28"^^xsd:date ;
                  pf:startDate "2016-03-01"^^xsd:date ;
+                 sda:group sdagroup:SemanticQuestionAnswering ;
                  sdapublication:publication sdapublication:Publication1 ;
                  sda:status "active" .
+
+
+sdaproject:AskNow a foaf:Project, sdatech:fundedProject ;
+                rdfs:label "Question Answering (QA) system for RDF datasets" ;
+                sda:hookline "Von Sensordaten zu internetbasierten Geo-Services" ;
+                foaf:member sdaperson:JensLehmann, sdaperson:CalvinHidermanns ;
+                foaf:homepage <http://www.projekt-geiser.de> ;
+                foaf:logo <http://semantic-interoperability.org/playground/asknow/files/AskNow.png> ;
+                sda:funded "Funded Project" ;
+                sda:twitter "undefined" ;
+                sda:homepage "http://sda.cs.uni-bonn.de/projects/asknow/" ;
+                sda:source "https://github.com/AskNowQA/AskNow" ;
+                sda:download "undefined" ;
+                site:content """* Duration: 2016–2019
+* Funding Programme: [BMWi - Smart Service Welt](http://www.bmwi.de/DE/Themen/Digitale-Welt/Digitale-Technologien/smart-service-welt.html \"BMWi - Smart Service Welt\")
+"""^^sysont:Markdown, """Tasks
+=====
+                 Leipzig University will develop processes for data acquisition, integration and fusion. For data acquisition, we will develop a unified, intelligent and extensible framework for representing data from diverse heterogeneous sources (automotive sensors, Twitter, OpenStreetMap, DBpedia, etc.) in RDF format. The acquired data has to be integrated to be useful for higher-value services. In order to process the high volume of complex geospatial data, we will develop scalable algorithms for efficiently detecting geospatial relations using machine learning techniques. Finally, we will survey if supervised machine learning can reduce the effort required for setting up data fusion pipelines. This will enable an efficient provisioning of fused data to geospatial services."""^^sysont:Markdown ;
+                sda:publicationTag "hobbit" ;
+                dct:abstract "The underlying idea of the project is to convert a natural language expression to a SPARQL query, which can then retrieve the answer of a question from a given triple store." ;
+                sdapartner:partner sdapartner:TomTomDevelopmentGermanyGmbHD, sdapartner:YellowMapD, sdapartner:Metaphacts ;
+                doap:maintainer sda:AxelNgonga ;
+                sda:relatedProject sdaproject:GeoKnow, sdaproject:BDE ;
+                pf:endDate "2019-02-28"^^xsd:date ;
+                pf:startDate "2016-03-01"^^xsd:date ;
+                sda:group sdagroup:SemanticQuestionAnswering ;
+                sdapublication:publication sdapublication:Publication1 ;
+                sda:status "active" .
 
 ############################Open Source Projects##########################
 sdaproject:DLLearner a foaf:Project, sdatech:openSourceProject ;
@@ -352,7 +662,7 @@ sdaproject:DLLearner a foaf:Project, sdatech:openSourceProject ;
                  sda:hookline "Von Sensordaten zu internetbasierten Geo-Services" ;
                  foaf:member sda:GezimSejidu, sda:RohanAsmat ;
                  foaf:homepage <http://www.projekt-geiser.de> ;
-                 foaf:logo <http://dl-learner.org/Images/dllearner.gif> ;
+                 foaf:logo <http://semantic-interoperability.org/playground/asknow/files/hobbit.png> ;
                  sda:funded "Funded Project" ;
                  sda:twitter "undefined" ;
                  sda:homepage "http://www.big-data-europe.eu/" ;
@@ -364,14 +674,17 @@ sdaproject:DLLearner a foaf:Project, sdatech:openSourceProject ;
  =====
                   Leipzig University will develop processes for data acquisition, integration and fusion. For data acquisition, we will develop a unified, intelligent and extensible framework for representing data from diverse heterogeneous sources (automotive sensors, Twitter, OpenStreetMap, DBpedia, etc.) in RDF format. The acquired data has to be integrated to be useful for higher-value services. In order to process the high volume of complex geospatial data, we will develop scalable algorithms for efficiently detecting geospatial relations using machine learning techniques. Finally, we will survey if supervised machine learning can reduce the effort required for setting up data fusion pipelines. This will enable an efficient provisioning of fused data to geospatial services."""^^sysont:Markdown ;
                  sda:publicationTag "geiser" ;
-                 dct:abstract "GEISER develops an open cloud-based platform for integrating geospatial data with sensor data from cyberphysical systems based on semantic and Big Data technologies." ;
+                 dct:abstract "GEISER develops an open cloud-based platform for integrating geospatial data with sensor data from cyberphysical systems based on semantic and Big Data technologies. GEISER IS technologically quite good software and it is same size or other of card." ;
                  sdapartner:partner sdapartner:TomTomDevelopmentGermanyGmbHD, sdapartner:YellowMapD, sdapartner:Metaphacts ;
                  doap:maintainer sda:AxelNgonga ;
                  sda:relatedProject sdaproject:GeoKnow, sdaproject:BDE ;
                  pf:endDate "2019-02-28"^^xsd:date ;
                  pf:startDate "2016-03-01"^^xsd:date ;
+                 sda:group sdagroup:StructuredMachineLearning ;
                  sdapublication:publication sdapublication:Publication1 ;
                  sda:status "active" .
+
+
 
 #######################################
 ##########Partners Model###############
@@ -568,25 +881,20 @@ sdapublication:Publication1 a bibo:Article ;
                 dc:publisher "IEEE" ;
                 foaf:homepage "http://mex.aksw.org/" ;
                 foaf:Organization "FhG" ;
+                sda:group sdagroup:SemanticQuestionAnswering ;
                 dc:author sdaperson:RajKapoor, sdaperson:JonDoe .
 
-sdapublication:Publication4 a bibo:Article ;
-                dc:title "Global perspectives for Market Driven Values" ;
-                dc:date "2000" ;
-                bibo:pages "23-27" ;
-                dc:publisher "IEEE" ;
-                foaf:homepage "http://mex.aksw.org/" ;
-                foaf:Organization "Bonn, FhG" ;
-                dc:author ex:AlfredEel .
-
-sdapublication:Publication5 a bibo:Article ;
-                dc:title "Global perspectives for Demand Driven Values" ;
+sdapublication:gPerspectives a bibo:Article ;
+                dc:title "Global perspectives of market driven net value" ;
                 dc:date "2000" ;
                 bibo:pages "23-27" ;
                 dc:publisher "IEEE" ;
                 foaf:homepage "http://mex.aksw.org/" ;
                 foaf:Organization "FhG" ;
-                dc:author sdaperson:RajKapoor .
+                sda:group sdagroup:SemanticQuestionAnswering ;
+                dc:author sdaperson:RajKapoor, sdaperson:JonDoe .
+
+
 
 
 ################################################################################
