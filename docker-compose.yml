@@ -3,7 +3,7 @@ version: "2"
 services:
   asknow:
     #build: ./docker/
-    image: index.docker.io/smartdataanalytics/asknowsite:develop
+    image: index.docker.io/smartdataanalytics/asknow-site:latest
     container_name: asknow
     environment:
       - REPO=https://github.com/AskNowQA/AskNow-Website
