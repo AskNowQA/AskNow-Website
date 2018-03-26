@@ -8,7 +8,10 @@
   - name: Publications
     link: rdfsites/http/sda.tech/publications/
 - links:
-  - name: Blog
+  - name: Jens Lehmann
+    link: http://sda.cs.uni-bonn.de/people/prof-dr-jens-lehmann/
+    new_window: true
+  - name: SDA Blog
     link: http://sda.cs.uni-bonn.de/?s=asknow
     new_window: true
   - name: SDA Group
