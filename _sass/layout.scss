@@ -18,14 +18,16 @@
 }
 
 header {
-	color: #fff;
+	// color: #fff;
 	padding: 20px 0;
-	background: $brand-color; /* Old browsers */
+	// background: $brand-color; /* Old browsers */
 	// background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
-	background: linear-gradient(to bottom, #fff 80%, $middle-gradient-color 20%) no-repeat $brand-color;
+	background: $secondary-brand-color; /* Old browsers */
+	background: linear-gradient(to bottom, #ecf0f1 0%, $secondary-brand-color 100%) no-repeat #ecf0f1;
+	color: $brand-color;
 
 	a {
-		color: #fff;
+		color: $brand-color;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -47,7 +49,24 @@ header {
 			display: block;
 			width: auto;
 		}
+
+		h3 {
+			display: inline-block;
+			position: relative;
+			top: -20px;
+			margin-left: 8px;
+
+		}
 	}
+
+	border-bottom: 4px solid $brand-color;
+	//Sticky Nav
+	box-shadow: 2px 2px 2px rgba(246,135,18, 0.4);
+	// Positioning context for the mobile navigation icon
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	z-index: 9999;
 }
 
 .content {

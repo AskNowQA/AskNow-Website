@@ -33,7 +33,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		color: rgba(246,135,18,.8);
 		transition: .2s ease-in-out;
 		display: none;
 
@@ -63,8 +63,8 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid rgba(255,255,255,.3);
-		color: #fff;
+		border-bottom: 1px solid rgba(246,135,18,.3);
+		color: $brand-color;
 	}
 
 	@media #{$mid-point} {
