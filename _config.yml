@@ -25,12 +25,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+#LOGO Vars
+sdaLogo: http://sda.cs.uni-bonn.de/wp-content/uploads/2017/10/Smart-Data-Analytics.png
+fraunhoferLogo: https://www.iais.fraunhofer.de/content/dam/iais/iais.svg
+eisLogo:
+uniBonnLogo: https://www.uni-bonn.de/logo.png
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-rdf
+  - jekyll-twitter-plugin
 
 social_icons:
   - Facebook

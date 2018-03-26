@@ -29,7 +29,7 @@ rdf_prefix_path: sda.tech.pref
 		</div>
 	</section>
 
-	<!-- <section>
+	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
@@ -51,7 +51,7 @@ rdf_prefix_path: sda.tech.pref
 				<img src="/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
 			</div>
 		</div>
-	</section> -->
+	</section>
 
 	<section class="testimonial">
 		<div class="container flex">
@@ -71,17 +71,23 @@ rdf_prefix_path: sda.tech.pref
 		<div class="container flex">
 			<div class="testimonial-block">
 				<ul class="staff">
-					<li class="uniBonnLogo">
-						<img src="https://www.uni-bonn.de/logo.png" alt="University of Bonn" class="editable">
+					<li class="uniBonnLogo branding-image">
+						<img src="{{site.uniBonnLogo}}" alt="University of Bonn" class="editable">
 					</li>
-					<li class="fraunhoferLogo">
-						<img src="https://www.iais.fraunhofer.de/content/dam/iais/iais.svg" alt="Fraunhofer IAIS" class="editable">
+					<li class="fraunhoferLogo branding-image">
+						<img src="{{site.fraunhoferLogo}}" alt="Fraunhofer IAIS" class="editable">
 					</li>
-					<li class="eisLogo">
+					<li class="eisLogo branding-image">
 						<img src="{{ site.baseurl }}/assets/UniBonn_EIS2014.png" alt="Enterprise Information Systems" class="editable">
+					</li>
+					<li class="sdaLogo branding-image">
+						<img src="{{site.sdaLogo}}" alt="SDA" class="editable">
 					</li>
 				</ul>
 			</div>
 		</div>
+	</section>
+	<section>
+		{% twitter https://twitter.com/jekyllrb maxwidth=500 limit=5 %}
 	</section>
 </div>

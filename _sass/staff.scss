@@ -1,11 +1,12 @@
 .staff {
 	padding: 0;
 	list-style: none;
+	min-width: 100%;
 	@extend %flexbox;
 	@include flex-flow(wrap);
 	text-align: center;
 	li {
-		padding: 30px 20px;
+		// padding: 30px 20px;
 		box-sizing: border-box;
 		width: 100%;
 
@@ -26,6 +27,15 @@
 				border-radius: 200px;
 			}
 		}
+
+	.branding-image {
+		img{
+			width: 250px;
+			height: 250px;
+			object-fit: contain;
+		}
+
+	}
 
 	.name {
 		font-size: 1.3em;

@@ -45,6 +45,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.4.0)
       jekyll (~> 3.3)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     json-ld (2.2.1)
@@ -199,6 +200,7 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   jekyll-rdf
+  jekyll-twitter-plugin (~> 2.0)
   minima (~> 2.0)
   tzinfo-data
 
