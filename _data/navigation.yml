@@ -14,3 +14,7 @@
   link: rdfsites/http/sda.tech/publications/
   new_window: false
   highlight: false
+- name: Contact
+  link: rdfsites/http/sda.tech/contact
+  new_window: false
+  highlight: false
