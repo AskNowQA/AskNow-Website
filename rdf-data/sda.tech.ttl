@@ -652,7 +652,7 @@ sdaproject:AskNow a foaf:Project, sdatech:fundedProject ;
                 sda:relatedProject sdaproject:GeoKnow, sdaproject:BDE ;
                 pf:endDate "2019-02-28"^^xsd:date ;
                 pf:startDate "2016-03-01"^^xsd:date ;
-                sda:group sdagroup:SemanticQuestionAnswering ;
+                #sda:group sdagroup:SemanticQuestionAnswering ;
                 sdapublication:publication sdapublication:Publication1 ;
                 sda:status "active" .
 
