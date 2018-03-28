@@ -1,4 +1,38 @@
 ---
 layout: default
 rdf_prefix_path: sda.tech.pref
+
+addLineOne: Shcloss Birlinghoven
+addLineTwo: 53757 Sankt Augustin
+country: Germany
+
+contactPersonOneName: Prof. Jens Lehmann
+contactPersonOneEmail: Jens.Lehmann@iais.fraunhofer.de
+contactPersonOnePhone: +49 2241 14-2792
+contactPersonOneImage: http://jens-lehmann.org/images/passbild_lehmann.jpg
+contactPersonOneStatus: Lead Scientist
+
+contactPersonTwoName: Mohammad K. Nammous
+contactPersonTwoEmail: Mohammad.Kheir.Nammous@iais.fraunhofer.de
+contactPersonTwoPhone: +49 2241 14-2206
+contactPersonTwoImage: /assets/nammous2.jpg
+contactPersonTwoStatus: Business Developer
+
 ---
+{% capture secondPersonImage %}{{site.baseurl}}{{page.contactPersonTwoImage}}{% endcapture %}
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<h2>Contact Us</h2>
+      <div class="address">
+    		<p class="subtext orange"><strong><a href="http://www.iais.fraunhofer.de/en/AskNow" target="_blank" >Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS</a></strong></p>
+        <p class="addressLine">{{page.addLineOne}}, {{page.addLineTwo}}, {{page.country}}</p>
+        <br/><br/><br/>
+        <ul class="staff">
+          {% include contact_person_card.html name=page.contactPersonOneName image=page.contactPersonOneImage email=page.contactPersonOneEmail phone=page.contactPersonOnePhone status=page.contactPersonOneStatus %}
+          {% include contact_person_card.html name=page.contactPersonTwoName image=secondPersonImage email=page.contactPersonTwoEmail phone=page.contactPersonTwoPhone status=page.contactPersonTwoStatus %}
+        </ul>
+      </div>
+		</div>
+	</section>
+</div>
