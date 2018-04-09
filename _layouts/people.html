@@ -12,7 +12,7 @@ rdf_prefix_path: sda.tech.pref
 			{% capture query %} SELECT ?Person ?name ?fname ?title ?status ?image ?website WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:status ?status . ?Person foaf:depiction ?image .
 		      ?Person foaf:firstName ?fname . ?Person foaf:title ?title . ?Person sda:website ?website . } {% endcapture %} {% assign SDAPeople = page.rdf | sparql_query: query %}
 			{% capture query %} SELECT ?Person ?name ?fname ?group ?groupname WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:firstName ?fname . ?Person sda:group ?group . ?group rdfs:label ?groupname .} {% endcapture %} {% assign peopleGroups = page.rdf | sparql_query: query %}
-			
+
 			<ul class="staff">
 				{%  for people in SDAPeople %}
 					{% for personInGroup in peopleGroups %}
