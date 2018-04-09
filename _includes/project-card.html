@@ -10,8 +10,15 @@
     <br/><br/>
     <div class="project-links">
         <div class="pagination">
-          <a href="{{include.source}}" target="_blank"><i class="fa fa-github margin-icon" aria-hidden="true"> Source Code</i></a>
-          <a href="{{include.homepage}}" target="_blank"><i class="fa fa-globe margin-icon" aria-hidden="true"> Homepage</i></a>
+          {% if include.source %}
+            <a href="{{include.source}}" target="_blank"><i class="fa fa-github margin-icon" aria-hidden="true"> Source Code</i></a>
+          {% endif %}
+          {% if include.homepage %}
+            <a href="{{include.homepage}}" target="_blank"><i class="fa fa-globe margin-icon" aria-hidden="true"> Homepage</i></a>
+          {% endif %}
+          {% if include.twitter %}
+            <a href="{{include.twitter}}" target="_blank"><i class="fa fa-twitter margin-icon" aria-hidden="true"> Twitter</i></a>
+          {% endif %}
         </div>
     </div>
   </div>

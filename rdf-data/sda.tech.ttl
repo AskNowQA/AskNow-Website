@@ -605,10 +605,9 @@ sdaproject:Hobbit a foaf:Project, sdatech:fundedProject ;
                  rdfs:label "Holistic Benchmarking of Big Linked Data" ;
                  sda:hookline "Von Sensordaten zu internetbasierten Geo-Services" ;
                  foaf:member sdaperson:JensLehmann, sdaperson:CalvinHidermanns ;
-                 foaf:homepage <http://www.projekt-geiser.de> ;
+                 foaf:homepage "<http://project-hobbit.eu/" ;
                  foaf:logo <http://semantic-interoperability.org/playground/asknow/files/hobbit.png> ;
                  sda:funded "Funded Project" ;
-                 sda:twitter "undefined" ;
                  sda:homepage "http://project-hobbit.eu/" ;
                  sda:source "https://github.com/hobbit-project" ;
                  sda:download "undefined" ;
@@ -628,6 +627,20 @@ sdaproject:Hobbit a foaf:Project, sdatech:fundedProject ;
                  sdapublication:publication sdapublication:Publication1 ;
                  sda:status "active" .
 
+ sdaproject:WDAqua a foaf:Project, sdatech:fundedProject ;
+            rdfs:label "WDAqua ITN" ;
+            foaf:member sdaperson:HarshThakkar, sdaperson:DenisLukovnikov ;
+            foaf:depiction <http://wdaqua.eu/assets/images/wdaqua.png> ;
+            dct:abstract "WDAqua (Answering Questions using Web Data) is a Marie Skłodowska-Curie Innovative Training Network (ITN)." ;
+            ex:longdescription "Smart infrastructures and citizens’ participation in the digital society are increasingly data-driven. Sharing, connecting, managing, analysing and understanding data on the web will enable better services for citizens, communities and industry. However, turning web data into successful services for the public and private sector requires skilled web and data scientists as well as further research in the field. WDAqua aims to advance the field of data-driven question answering through a combination of training, research and innovation. Question answering is relevant to a diverse range of end users, and we will demonstrate this in settings including e-commerce, public sector information, publishing and smart cities." ;
+            sda:twitter "https://twitter.com/WDAqua" ;
+            foaf:homepage "http://wdaqua.eu/" ;
+            foaf:logo <http://wdaqua.eu/assets/images/wdaqua.png> ;
+            sda:source "https://github.com/WDAqua" ;
+            sda:download "undefined" ;
+            sda:opensource "Open Source" ;
+            sda:group sdagroup:SemanticQuestionAnswering ;
+            sda:status "active" .
 
 sdaproject:AskNow a foaf:Project, sdatech:fundedProject ;
                 rdfs:label "Question Answering (QA) system for RDF datasets" ;

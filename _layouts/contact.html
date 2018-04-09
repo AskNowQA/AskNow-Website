@@ -18,6 +18,8 @@ contactPersonTwoPhone: +49 2241 14-2206
 contactPersonTwoImage: /assets/nammous2.jpg
 contactPersonTwoStatus: Business Developer
 
+contactHeadingOne: Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS
+linkHeadingOne: http://www.iais.fraunhofer.de/en/AskNow
 ---
 {% capture secondPersonImage %}{{site.baseurl}}{{page.contactPersonTwoImage}}{% endcapture %}
 <div class="content">
@@ -25,7 +27,8 @@ contactPersonTwoStatus: Business Developer
 		<div class="container">
 			<h2>Contact Us</h2>
       <div class="address">
-    		<p class="subtext orange"><strong><a href="http://www.iais.fraunhofer.de/en/AskNow" target="_blank" >Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS</a></strong></p>
+    		<p class="subtext orange"><strong>{{page.contactHeadingOne}}</strong></p>
+				<p class="linkMain"><a href="{{page.linkHeadingOne}}" target="_blank" >{{page.linkHeadingOne}}</a></p>
         <p class="addressLine">{{page.addLineOne}}, {{page.addLineTwo}}, {{page.country}}</p>
         <br/><br/><br/>
         <ul class="staff">
