@@ -14,10 +14,62 @@ rdf_prefix_path: sda.tech.pref
 			{% capture query %} SELECT ?Person ?name ?fname ?group ?groupname WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:firstName ?fname . ?Person sda:group ?group . ?group rdfs:label ?groupname .} {% endcapture %} {% assign peopleGroups = page.rdf | sparql_query: query %}
 
 			<ul class="staff">
+				<!-- Mentor  -->
 				{%  for people in SDAPeople %}
 					{% for personInGroup in peopleGroups %}
 						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
-						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Mentor" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				<!-- Expert Group Leader -->
+				{%  for people in SDAPeople %}
+					{% for personInGroup in peopleGroups %}
+						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Expert Group Leader" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				<!-- Senior Researcher and Mentor -->
+				{%  for people in SDAPeople %}
+					{% for personInGroup in peopleGroups %}
+						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Senior Researcher / Mentor" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				<!-- Researcher -->
+				{%  for people in SDAPeople %}
+					{% for personInGroup in peopleGroups %}
+						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Researcher" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				<!-- Phd Student -->
+				{%  for people in SDAPeople %}
+					{% for personInGroup in peopleGroups %}
+						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Phd Student" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				<!-- Student Assistant -->
+				{%  for people in SDAPeople %}
+					{% for personInGroup in peopleGroups %}
+						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
+						{% capture personStatus %}{{people.status}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Student Assistant" %}
 							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
 						{% endif %}
 					{% endfor %}

@@ -142,3 +142,52 @@
 	text-align: justify;
 	text-justify: inter-character;
 }
+
+// logo lists
+.brandingList {
+	padding: 0;
+	list-style: none;
+	min-width: 100%;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		// padding: 30px 20px;
+		box-sizing: border-box;
+		max-width: 25%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 45%);
+			max-width: 50%;
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 29%);
+			max-width: 25%;
+
+		}
+
+		@media #{$mobile} {
+			@include flex(1, 1, 29%);
+			max-width: 100%;
+
+		}
+
+		@media #{$mid-point} {
+			@include flex(1, 1, 29%);
+			max-width: 25%;
+
+		}
+
+	}
+
+	.branding-image {
+		img{
+			width: 180px;
+			height: 180px;
+			object-fit: contain;
+		}
+
+	}
+
+}
