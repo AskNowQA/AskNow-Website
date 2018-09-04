@@ -22,3 +22,7 @@
     link: https://twitter.com/AskNowQA
     social_icon: Twitter
     new_window: true
+  - name: Github
+    link: https://github.com/AskNowQA
+    social_icon: Github
+    new_window: true
