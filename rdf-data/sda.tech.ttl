@@ -398,7 +398,7 @@ sdaperson:AshwiniJayaKumar	 a foaf:Person, sdatech:associateResearcher ;
                   foaf:firstName "Ashwini Jaya" ;
                   foaf:title "" ;
                   foaf:status "Researcher" ;
-                  sda:linkedin "https://www.linkedin.com/in/rohanasmat/" ;
+                  sda:linkedin "" ;
                   sda:website "http://sda.cs.uni-bonn.de/people/ashwini-jaya-kumar/" ;
                   sda:twitter "http://jens-lehmann.org/" ;
                   sda:facebook "http://jens-lehmann.org/" ;
@@ -406,7 +406,7 @@ sdaperson:AshwiniJayaKumar	 a foaf:Person, sdatech:associateResearcher ;
                   schema:location <http://aksw.org/Address/InfAI> ;
                   cv:aboutPerson "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." ;
                   sda:publication sdapublication:Publication1 ;
-                  sda:group sdagroup:SemanticQuestionAnswering ;
+                  #sda:group sdagroup:SemanticQuestionAnswering ;
                   foaf:currentProject sdaproject:BigDataEurope .
 
 sdaperson:VinayModi		 a foaf:Person, sdatech:associateResearcher ;
