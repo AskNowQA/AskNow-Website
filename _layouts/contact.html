@@ -2,9 +2,12 @@
 layout: default
 rdf_prefix_path: sda.tech.pref
 
-addLineOne: Shcloss Birlinghoven
+addLineOne: Fraunhofer IAIS, Schloss Birlinghoven
 addLineTwo: 53757 Sankt Augustin
 country: Germany
+
+addTwoLineOne: University of Bonn, Institut für Informatik III at Endenicher Allee 19a
+addTwoLineTwo: 53115 Bonn
 
 contactPersonOneName: Prof. Jens Lehmann
 contactPersonOneEmail: Jens.Lehmann@iais.fraunhofer.de
@@ -30,6 +33,7 @@ linkHeadingOne: http://www.iais.fraunhofer.de/en/AskNow
     		<p class="subtext orange"><strong>{{page.contactHeadingOne}}</strong></p>
 				<p class="linkMain"><a href="{{page.linkHeadingOne}}" target="_blank" >{{page.linkHeadingOne}}</a></p>
         <p class="addressLine">{{page.addLineOne}}, {{page.addLineTwo}}, {{page.country}}</p>
+				<p class="addressLine">{{page.addTwoLineOne}}, {{page.addTwoLineTwo}}, {{page.country}}</p>
         <br/><br/><br/>
         <ul class="staff">
           {% include contact_person_card.html name=page.contactPersonOneName image=page.contactPersonOneImage email=page.contactPersonOneEmail phone=page.contactPersonOnePhone status=page.contactPersonOneStatus %}
