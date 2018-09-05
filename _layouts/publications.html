@@ -9,7 +9,7 @@ rdf_prefix_path: sda.tech.pref
 	<section class="page">
 		<div class="container">
 			<h2>Our Publications</h2>
-			<p class="subtext">We have notable amount of Publications</p>
+			<!-- <p class="subtext">We have notable amount of Publications</p> -->
 			<!--QUERY TO GET ALL THE Publications  -->
 			{% capture query %} SELECT ?Publication ?title ?date WHERE{ ?Publication a bibo:Article . ?Publication dc:title ?title .
 					?Publication dc:date ?date . } {% endcapture %} {% assign sdapubs = page.rdf | sparql_query: query %}
