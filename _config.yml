@@ -58,7 +58,7 @@ jekyll_rdf:
                 }"
     default_template: "home.html"
     class_template_mappings:
-        "http://xmlns.com/foaf/0.1/Person" : "person.html"
+        
     instance_template_mappings:
         "http://sda.tech/project" : "projects.html"
         "http://sda.tech" : "home.html"
