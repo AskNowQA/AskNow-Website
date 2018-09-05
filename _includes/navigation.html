@@ -1,3 +1,16 @@
+<script>
+	function activate(div){
+		document.getElementById('home').style.color = "#f68712cc";
+		document.getElementById('people').style.color = "#f68712cc";
+		document.getElementById('projects').style.color = "#f68712cc";
+		document.getElementById('publications').style.color = "#f68712cc";
+		document.getElementById('contact').style.color = "#f68712cc";
+
+		document.getElementById(div).style.color = "#403D83";
+	}
+
+</script>
+
 <nav>
 	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
 	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
@@ -12,10 +25,10 @@
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
 	{% endfor %} -->
-	<a href="/rdfsites/http/sda.tech/">Home</a>
-	<a href="/rdfsites/http/sda.tech/people/">People</a>
-	<a href="/rdfsites/http/sda.tech/project/">Projects</a>
-	<a href="/rdfsites/http/sda.tech/publication/">Publications</a>
-	<a href="/rdfsites/http/sda.tech/contact/">Contact</a>
+	<a id="home"  href="/rdfsites/http/sda.tech/">Home</a>
+	<a id="people"  href="/rdfsites/http/sda.tech/people/">People</a>
+	<a id="projects"  href="/rdfsites/http/sda.tech/project/">Projects</a>
+	<a id="publications"  href="/rdfsites/http/sda.tech/publication/">Publications</a>
+	<a id="contact"  href="/rdfsites/http/sda.tech/contact/">Contact</a>
 
 </nav>

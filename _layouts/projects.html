@@ -2,12 +2,14 @@
 layout: default
 rdf_prefix_path: sda.tech.pref
 ---
-
+<script>
+	activate("projects");
+</script>
 <div class="content">
 	<section class="page">
 		<div class="container">
 			<h2>Our Portfolio</h2>
-			<p class="subtext">We have been working on different academic and industrial projects</p>
+			<p class="subtext">We have been working on different research projects and used the project for industry customers (which we cannot disclose here).</p>
 			<!--QUERY TO GET ALL THE PROJECTS  -->
 			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project ex:description ?title . OPTIONAL{?Project ex:longdescription ?abstract} . OPTIONAL{?Project foaf:depiction  ?logo} .
 		      optional { ?Project sda:twitter ?twitter }. optional { ?Project foaf:homepage ?homepage }. optional { ?Project sda:source ?source  }.  } {% endcapture %} {% assign SDAProjects = page.rdf | sparql_query: query %}
