@@ -9,10 +9,10 @@ rdf_prefix_path: sda.tech.pref
 			<h2>Our Portfolio</h2>
 			<p class="subtext">We have been working on different academic and industrial projects</p>
 			<!--QUERY TO GET ALL THE PROJECTS  -->
-			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project dct:abstract ?abstract . ?Project foaf:logo ?logo .
+			{% capture query %} SELECT ?Project ?title ?abstract ?homepage ?twitter ?source ?logo WHERE{ ?Project a foaf:Project . ?Project ex:description ?title . OPTIONAL{?Project ex:longdescription ?abstract} . OPTIONAL{?Project foaf:depiction  ?logo} .
 		      optional { ?Project sda:twitter ?twitter }. optional { ?Project foaf:homepage ?homepage }. optional { ?Project sda:source ?source  }.  } {% endcapture %} {% assign SDAProjects = page.rdf | sparql_query: query %}
       <!--QUERY TO GET PROJECTS ASSOCIATED WITH ASKNOW-->
-			{% capture query %} SELECT ?Project ?title ?group ?groupName WHERE{ ?Project a foaf:Project . ?Project rdfs:label ?title . ?Project sda:group ?group . ?group rdfs:label ?groupName .
+			{% capture query %} SELECT ?Project ?title ?group ?groupName WHERE{ ?Project a foaf:Project . ?Project ex:description ?title . ?Project sda:group ?group . ?group rdfs:label ?groupName .
 			} {% endcapture %} {% assign projectsWithGroups = page.rdf | sparql_query: query %}
 
 			<div class="plans">

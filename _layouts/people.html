@@ -9,9 +9,9 @@ rdf_prefix_path: sda.tech.pref
 			<h2>Our Team</h2>
 			<p class="subtext">Our team consists of amazing people</p>
 			<!--QUERY TO GET ALL THE PEOPLE  -->
-			{% capture query %} SELECT ?Person ?name ?fname ?title ?status ?image ?website WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:status ?status . ?Person foaf:depiction ?image .
-		      ?Person foaf:firstName ?fname . ?Person foaf:title ?title . ?Person sda:website ?website . } {% endcapture %} {% assign SDAPeople = page.rdf | sparql_query: query %}
-			{% capture query %} SELECT ?Person ?name ?fname ?group ?groupname WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:firstName ?fname . ?Person sda:group ?group . ?group rdfs:label ?groupname .} {% endcapture %} {% assign peopleGroups = page.rdf | sparql_query: query %}
+			{% capture query %} SELECT ?Person ?name ?fname ?title ?status ?image ?website WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:status ?status . optional{ ?Person foaf:depiction ?image }.
+		     optional{  ?Person foaf:firstName ?fname  } . optional{  ?Person foaf:title ?title  } . optional{  ?Person sda:website ?website  } . } {% endcapture %} {% assign SDAPeople = page.rdf | sparql_query: query %}
+			{% capture query %} SELECT ?Person ?name ?fname ?group ?groupname WHERE{ ?Person a foaf:Person . ?Person foaf:familyName ?name . ?Person foaf:firstName ?fname . ?Person sda:group ?group . ?group rdfs:label ?groupname . } {% endcapture %} {% assign peopleGroups = page.rdf | sparql_query: query %}
 
 			<ul class="staff">
 				<!-- Mentor  -->
@@ -19,8 +19,9 @@ rdf_prefix_path: sda.tech.pref
 					{% for personInGroup in peopleGroups %}
 						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
 						{% capture personStatus %}{{people.status}}{% endcapture %}
-						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Mentor" %}
-							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% capture name %}{{people.name}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and name=="Lehmann" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status="Mentor" image=people.image website=people.website  %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
@@ -29,8 +30,9 @@ rdf_prefix_path: sda.tech.pref
 					{% for personInGroup in peopleGroups %}
 						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
 						{% capture personStatus %}{{people.status}}{% endcapture %}
-						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Expert Group Leader" %}
-							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% capture name %}{{people.name}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and name=="Napolitano" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status="Expert Group Leader" image=people.image website=people.website  %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
@@ -39,8 +41,9 @@ rdf_prefix_path: sda.tech.pref
 					{% for personInGroup in peopleGroups %}
 						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
 						{% capture personStatus %}{{people.status}}{% endcapture %}
-						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Senior Researcher / Mentor" %}
-							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
+						{% capture name %}{{people.name}}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and name=="Lytra" %}
+							{% include people_card.html name=people.name firstname=people.fname title=people.title status="Senior Researcher / Mentor" image=people.image website=people.website  %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
@@ -58,8 +61,8 @@ rdf_prefix_path: sda.tech.pref
 				{%  for people in SDAPeople %}
 					{% for personInGroup in peopleGroups %}
 						{% capture groupname %}{{personInGroup.groupname}}{% endcapture %}
-						{% capture personStatus %}{{people.status}}{% endcapture %}
-						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus=="Phd Student" %}
+						{% capture personStatus %}{{people.status | downcase }}{% endcapture %}
+						{% if people.name == personInGroup.name and people.fname == personInGroup.fname and groupname == "Semantic Question Answering" and personStatus ==  "phd student" %}
 							{% include people_card.html name=people.name firstname=people.fname title=people.title status=people.status image=people.image website=people.website  %}
 						{% endif %}
 					{% endfor %}
