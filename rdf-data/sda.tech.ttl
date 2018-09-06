@@ -3606,6 +3606,9 @@ sdablog:papers-accepted-at-ICWE-2018	a sioc:Post ;
 sdatech:contact a foaf:Document ;
       rdfs:label "Contact" .
 
+sdatech:demos a foaf:Document ;
+      rdfs:label "Demos & Videos" .
+
 sdatech:partners a foaf:Document ;
             sda:miniIcon "fa fa-list-alt margin-icon";
             rdfs:label "Partners" .

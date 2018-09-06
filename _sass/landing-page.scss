@@ -101,6 +101,12 @@ REFERENCE: http://cssdeck.com/labs/beautiful-flat-buttons
 	}
 }
 
+.hero2 {
+
+	background: linear-gradient(to bottom, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
+	color: white !important;
+}
+
 // media querries for screen effecting HTML5 DOM ELEMENTS
 @media #{$desktop} {
 	.flex {
