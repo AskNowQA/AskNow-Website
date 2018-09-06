@@ -16,7 +16,7 @@
 
 title: AskNow Website
 email: your-email@example.com
-description: Home
+description: Question Answering
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://sda.tech/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -58,7 +58,7 @@ jekyll_rdf:
                 }"
     default_template: "home.html"
     class_template_mappings:
-        
+
     instance_template_mappings:
         "http://sda.tech/project" : "projects.html"
         "http://sda.tech" : "home.html"
