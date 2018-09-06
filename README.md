@@ -3,7 +3,7 @@
 The website of AskNow.
 
 # Setup
-In order to get started you need to have full [Ruby Development Envoirnment](https://www.ruby-lang.org/en/downloads/) with all the headers and [Ruby Gems](https://rubygems.org/pages/download) installed. This website is being built by Jekyll version 3.5.1 and its compatible Ruby dev envoirnment and gems. If you have already setup Ruby Development Envoirnment and and Ruby Gems, you can run the following command as per [Jekyll version 3.5.1](https://github.com/jekyll/jekyll):
+In order to get started you need to have full [Ruby Development Envoirnment](https://www.ruby-lang.org/en/downloads/) with all the headers and [Ruby Gems](https://rubygems.org/pages/download) installed. This website is being built by Jekyll version 3.6.2 and its compatible Ruby dev envoirnment and gems. If you have already setup Ruby Development Envoirnment and and Ruby Gems, you can run the following command as per [Jekyll version 3.6.2](https://github.com/jekyll/jekyll):
 
 ```sh
 gem install jekyll bundler
