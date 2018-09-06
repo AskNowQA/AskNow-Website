@@ -1783,6 +1783,19 @@ sdaproject:HOBBIT a foaf:Project, sdatech:fundedProject ;
           sda:group sdagroup:SemanticQuestionAnswering ;
           sda:partners sdapartner:AgroKnow, sdapartner:AGTinternational, sdapartner:FraunhoferIAIS, sdapartner:imec, sdapartner:InfAI, sdapartner:Ontos, sdapartner:OpenLink, sdapartner:USU, sdapartner:TomTom, sdapartner:NCSR, sdapartner:FORTH .
 
+sdaproject:SOLIDE a foaf:Project, sdatech:fundedProject ;
+           rdfs:label "SOLIDE" ;
+           foaf:member sdaperson:HarshThakkar, sdaperson:DenisLukovnikov, sdaperson:IoannaLytra, sdaperson:FabrizioOrlandi, sdaperson:AshwiniJayaKumar, sdaperson:KuldeepSingh, sdaperson:DenisLukovnikov, sdaperson:ChristophLange ;
+           foaf:depiction <http://solide-projekt.de/assets/images/logos/solide_130x85.png> ;
+           ex:description "SOLID - Speech-based, contextual situation image information for staffs and civil protection volunteers" ;
+           ex:longdescription "In (large) damage situations, crises, disasters and emergencies, the task forces are confronted with a multitude of information from different sources. This flood of information must be analyzed, processed into a situation picture and made available to the user without diverting the task forces from their tasks." ;
+           #sda:twitter "https://twitter.com/WDAqua" ;
+           foaf:homepage "http://solide-projekt.de/" ;
+           sda:source "https://github.com/SmartDataAnalytics" ;
+           #sda:download "undefined" ;
+           sda:group sdagroup:SemanticQuestionAnswering ;
+           sda:status "active" .
+
 sdaproject:SLIPO a foaf:Project, sdatech:fundedProject ;
          rdfs:label "SLIPO" ;
          doap:maintainer sda:JensLehmann ;
