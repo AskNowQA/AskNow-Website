@@ -65,7 +65,7 @@ jekyll_rdf:
         "http://sda.tech/people" : "people.html"
         "http://sda.tech/publication" : "publications.html"
         "http://sda.tech/contact" : "contact.html"
-        "http://sda.tech/demos" : "demos.html"
+        "http://sda.tech/demos-videos" : "demos.html"
 
 
 # Exclude from processing.
