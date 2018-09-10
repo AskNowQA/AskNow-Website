@@ -223,7 +223,7 @@ sdaperson:GiulioNapolitano a foaf:Person, sdatech:seniorResearcher ;
                   foaf:familyName "Napolitano" ;
                   foaf:name "Dr. Giulio Napolitano" ;
                   foaf:mbox <mailto:shariat@cs.uni-bonn.de> ;
-                  foaf:depiction <https://scholar.google.com/citations?view_op=view_photo&user=H0pe9pgAAAAJ&citpid=2> ;
+                  foaf:depiction <https://media.licdn.com/dms/image/C5603AQHh615jhCC3bQ/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=KQ0d8eWGhje2C8qCY9LWmNKAq_aS7epHpMvAmhWWk9E> ;
                   foaf:phone <tel:+49-341-123456789> ;
                   foaf:title "Dr. " ;
                   foaf:status "Senior Researcher" ;
