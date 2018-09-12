@@ -1,12 +1,12 @@
 - links:
   - name: Home
-    link: rdfsites/http/sda.tech/home/
+    link: ../
   - name: People
-    link: rdfsites/http/sda.tech/projects/
+    link: ../people
   - name: Projects
-    link: rdfsites/http/sda.tech/people/
+    link: ../project
   - name: Publications
-    link: rdfsites/http/sda.tech/publications/
+    link: ../publication
 - links:
   - name: Prof Jens Lehmann
     link: http://sda.cs.uni-bonn.de/people/prof-dr-jens-lehmann/
