@@ -59,8 +59,9 @@
 
 .project-card {
 	img {
-		width: 35%;
-		height: 50px;
+		width: 70%;
+		height: 70px;
+		object-fit: contain;
 	}
 }
 

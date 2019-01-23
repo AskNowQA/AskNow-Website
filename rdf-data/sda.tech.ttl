@@ -7,7 +7,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ex: <http://example.org/> .
-@prefix cv: <http://rdfs.org/resume-rdf/> .
+@prefix cv: <http:/s/rdfs.org/resume-rdf/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix sda: <http://beta.sda.tech/schema/> .
@@ -964,7 +964,7 @@ sdaperson:RostislavNedelchev a foaf:Person, sdatech:associateReseracher ;
                    foaf:name "Rostislav Nedelchev" ;
                    foaf:nick "Rostislav" ;
                    foaf:mbox <mailto:rostislav.nedelchev@iais.fraunhofer.de> ;
-                   foaf:depiction <https://media.licdn.com/dms/image/C4E03AQHom9H1txHVfg/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=2D4YbKLds_FlmK06kbCYqzgUwyCV4wgpOvIIMhoNTVY> ;
+                   foaf:depiction <http://www.clker.com/cliparts/d/L/P/X/z/i/no-image-icon-md.png> ;
                    foaf:phone "" ;
                    foaf:firstName "Rostislav" ;
                    foaf:title "" ;
