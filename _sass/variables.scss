@@ -1,6 +1,7 @@
 $brand-color: #F68712;
+$temp-bg-color: #FFF;
 $secondary-brand-color: #ecf0f1;
-$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$middle-gradient-color: mix( $temp-bg-color, $secondary-brand-color, 65%);
 
 
 // Breakpoints
