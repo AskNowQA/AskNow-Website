@@ -1,0 +1,25 @@
+{
+	"contact":{
+		"institute": "Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS",
+		"url": "http://www.iais.fraunhofer.de/en/AskNow",
+		"address": [
+			"Fraunhofer IAIS, Schloss Birlinghoven, 53757 Sankt Augustin, Germany",
+			"University of Bonn, Institut für Informatik III at Endenicher Allee 19a, 53115 Bonn, Germany"
+		],
+		"people": [{
+			"name": "Prof. Jens Lehmann",
+			"role": "Lead Scientist",
+			"email": "Jens.Lehmann@iais.fraunhofer.de",
+			"phone": "+49 2241 14-2792",
+			"webpage": "",
+			"img": "img/people/passbild_lehmann.jpg"
+		},{
+			"name": "Mohammad K. Nammous",
+			"role": "Business Developer",
+			"email": "Mohammad.Kheir.Nammous@iais.fraunhofer.de",
+			"phone": "+49 2241 14-2206",
+			"webpage": "",
+			"img": "img/people/nammous4.jpg"
+		}]
+	}
+}

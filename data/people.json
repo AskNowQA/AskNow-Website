@@ -1,0 +1,63 @@
+{
+	"people":[{
+		"name": "Prof. Dr. Jens Lehmann",
+		"role": "Mentor",
+		"img": "img/people/passbild_lehmann.jpg",
+		"email": "name@example.com"
+	},{
+		"name": "Dr. Giulio Napolitano",
+		"role": "Expert Group Leader",
+		"img": "img/people/citations.jfif",
+		"email": "name@example.com"
+	},{
+		"name": "Dr. Ioanna Lytra",
+		"role": "Senior Researcher / Mentor",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Kuldeep Singh",
+		"role": "Researcher",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Hamid Zafar",
+		"role": "PhD Student",
+		"img": "img/people/zafar.jpg",
+		"email": "name@example.com"
+	},{
+		"name": "Konrad Höffner",
+		"role": "PhD Student",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Debanjan Chaudhuri",
+		"role": "PhD Student",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Denis Lukovnikov",
+		"role": "PhD Student",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Mohnish Dubey",
+		"role": "PhD Student",
+		"img": "img/people/mohnish.jpg",
+		"email": "name@example.com"
+	},{
+		"name": "Gaurav Maheshwari",
+		"role": "Student Assistant",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	},{
+		"name": "Priyansh Trivedi",
+		"role": "Student Assistant",
+		"img": "img/people/Priyansh-Trivedi.jpg",
+		"email": "name@example.com"
+	},{
+		"name": "Debayan Banerjee",
+		"role": "Student Assistant",
+		"img": "img/people/no-image-icon-md.png",
+		"email": "name@example.com"
+	}]
+}

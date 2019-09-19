@@ -1,0 +1,192 @@
+{
+	"publications": [{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Improving Response Selection in Multi-turn Dialogue Systems",
+		"authors": [
+			"Debanjan Chaudhuri",
+			"Agustinus Kristiadi", 
+			"Jens Lehmann",
+			"Asja Fischer"
+		],
+		"venue": "The SIGNLL Conference on Computational Natural Language Learning (CoNLL 2018)"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Joint Entity and Relation Linking using EARL",
+		"authors": [
+			"Mohnish Dubey", 
+			"Debayan Banerjee", 
+			"Debanjan Chaudhuri", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of 17th International Semantic Web Conference - Research Track (ISWC’ 2018)"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Joint Entity and Relation Linking using EARL",
+		"authors": [
+			"Debayan Banerjee", 
+			"Mohnish Dubey", 
+			"Debanjan Chaudhuri", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of 17th International Semantic Web Conference – Poster & Demos (ISWC’ 2018)"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Dynamic Composition of Question Answering Pipelines with Frankenstein",
+		"authors": [
+			"Kuldeep Singh", 
+			"Ioanna Lytra", 
+			"Arun Sethupat Radhakrishna", 
+			"Akhilesh Vyas", 
+			"Maria-Esther Vidal"
+		],
+		"venue": "(SIGIR 2018) The 41st International ACM SIGIR Conference on Research and Development in Information Retrieval"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Why Reinvent the Wheel: Let's Build Question Answering Systems Together ",
+		"authors": [
+			"Kuldeep Singh", 
+			"Arun Sethupat Radhakrishna", 
+			"Andreas Both", 
+			"Saeedeh Shekarpour", 
+			"Ioanna Lytra", 
+			"Ricardo Usbeck", 
+			"Akhilesh Vyas", 
+			"Akmal Khikmatullaev", 
+			"Dharmen Punjani", 
+			"Christoph Lange", 
+			"Maria Esther Vidal", 
+			"Jens Lehmann", 
+			"Sören Auer"
+		],
+		"venue": "2018 World Wide Web Conference (The Web Conference)"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Frankenstein: A Platform Enabling Reuse of Question Answering Components",
+		"authors": [
+			"Kuldeep Singh", 
+			"Andreas Both", 
+			"Arun Sethupat", 
+			"Saeedeh Shekarpour" 
+		],
+		"venue": "Proceedings of 17th Extended Semantic Web Conference - Resource Track (ESWC’ 2018)"
+	},{
+		"year": "2018",
+		"type": "Conference",
+		"publication": "Formal Query Generation for Question Answering over Knowledge Bases",
+		"authors": [
+			"Hamid Zafar", 
+			"Giulio Napolitano", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of 17th Extended Semantic Web Conference - Research Track (ESWC’ 2018)"
+	},{
+		"year": "2017",
+		"type": "Conference",
+		"publication": "Capturing Knowledge in Semantically-typed Relational Patterns to Enhance Relation Linking",
+		"authors": [
+			"Kuldeep Singh", 
+			"Isaiah Onando Mulang", 
+			"Ioanna Lytra", 
+			"Mohamad Yaser Jaradeh", 
+			"Ahmad Sakor", 
+			"Maria-Esther Vidal", 
+			"Christoph Lange", 
+			"Sören Auer"
+		],
+		"venue": "(K-Cap) 2017, Knowledge Capture Conference, Austin, United States"
+	},{
+		"year": "2017",
+		"type": "Conference",
+		"publication": "How to Revert Question Answering on Knowledge Graphs",
+		"authors": [
+			"Gaurav Maheshwari", 
+			"Mohnish Dubey", 
+			"Priyansh Trivedi", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of 16th International Semantic Web Conference – Poster & Demos",
+		"link": {
+			"url": "https://www.bibsonomy.org/bibtex/2c2bcdab20424d0c8e166943e1cd2a8af/aksw",
+			"label": "BibTex"
+		}
+	},{
+		"year": "2017",
+		"type": "Conference",
+		"publication": "A Corpus for Complex Question Answering over Knowledge Graphs",
+		"authors": [
+			"Priyansh Trivedi", 
+			"Gaurav Maheshwari", 
+			"Mohnish Dubey", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of 16th International Semantic Web Conference – Resources Track (ISWC’2017)",
+		"link": {
+			"url": "https://www.bibsonomy.org/bibtex/2c8941c5b239a812b8435a381ec8438e6/aksw",
+			"label": "BibTex"
+		}
+	},{
+		"year": "2017",
+		"type": "Journal",
+		"publication": "Survey on Challenges of Question Answering in the Semantic Web",
+		"authors": [
+			"Konrad Höffner", 
+			"Sebastian Walter", 
+			"Edgard Marx", 
+			"Ricardo Usbeck", 
+			"Jens Lehmann", 
+			"Axel-Cyrille Ngonga Ngomo"
+		],
+		"venue": "Semantic Web Journal",
+		"link": {
+			"url": "https://www.bibsonomy.org/bibtex/2f0401ca8adebe1b7edfa36255ea1140d/aksw",
+			"label": "BibTex"
+		}
+	},{
+		"year": "2017",
+		"type": "Conference",
+		"publication": "Neural Network-based Question Answering over Knowledge Graphs on Word and Character Level",
+		"authors": [
+			"Denis Lukovnikov", 
+			"Asja Fischer", 
+			"Soeren Auer", 
+			"Jens Lehmann"
+		],
+		"venue": "Proceedings of the 26th international conference on World Wide Web",
+		"link": {
+			"url": "https://www.bibsonomy.org/bibtex/244eaa5ad224bd2caa770c8df48530b26/aksw",
+			"label": "BibTex"
+		}
+	},{
+		"year": "2016",
+		"type": "Conference",
+		"publication": "AskNow: A Framework for Natural Language Query Formalization in SPARQL",
+		"authors": [
+			"Mohnish Dubey", 
+			"Sourish Dasgupta", 
+			"Ankit Sharma", 
+			"Konrad Hoffner", 
+			"Jens Lehmann"
+		],
+		"venue": "Proc. of the Extended Semantic Web Conference 2016",
+		"link": {
+			"url": "https://www.bibsonomy.org/bibtex/208f5ea5f2915345506c6d35d2b6b5374/aksw",
+			"label": "BibTex"
+		}
+	},{
+		"year": "2016",
+		"type": "Conference",
+		"publication": "CubeQA—Question Answering on RDF Data Cubes",
+		"authors": [
+			"Konrad Höffner", 
+			"Jens Lehmann", 
+			"Ricardo Usbeck" 
+		],
+		"venue": "Proceedings of the 15th International Semantic Web Conference (ISWC2016)"
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	"projects": [{
+		"name": "SOLID - Speech-based, contextual situation image information for staffs and civil protection volunteers",
+		"text": "In (large) damage situations, crises, disasters and emergencies, the task forces are confronted with a multitude of information from different sources. This flood of information must be analyzed, processed into a situation picture and made available to the user without diverting the task forces from their tasks.",
+		"img": "img/projects/solide_130x85.png",
+		"links": [{
+			"label": "Source code",
+			"url": "https://github.com/SmartDataAnalytics",
+			"type": "github"
+		},{
+			"label": "Homepage",
+			"url": "http://solide-projekt.de/",
+			"type": "website"
+		}]
+	},{
+		"name": "WDAqua (Answering Questions using Web Data) is a Marie Skłodowska-Curie Innovative Training Network (ITN).",
+		"text": "Smart infrastructures and citizens’ participation in the digital society are increasingly data-driven. Sharing, connecting, managing, analysing and understanding data on the web will enable better services for citizens, communities and industry. However, turning web data into successful services for the public and private sector requires skilled web and data scientists as well as further research in the field. WDAqua aims to advance the field of data-driven question answering through a combination of training, research and innovation. Question answering is relevant to a diverse range of end users, and we will demonstrate this in settings including e-commerce, public sector information, publishing and smart cities.",
+		"img": "img/projects/wdaqua.png",
+		"links": [{
+			"label": "Source code",
+			"url": "https://github.com/WDAqua",
+			"type": "github"
+		},{
+			"label": "Homepage",
+			"url": "http://wdaqua.eu/",
+			"type": "website"
+		},{
+			"label": "Twitter",
+			"url": "https://twitter.com/WDAqua",
+			"type": "twitter"
+		}]
+	},{
+		"name": "Holistic Benchmarking of Big Linked Data",
+		"text": "HOBBIT is a European project that develops a holistic open-source platform and industry-grade benchmarks for benchmarking big linked data.",
+		"img": "img/projects/Hobbit_Logo_2015_rgb_cropped2.png",
+		"links": [{
+			"label": "Source code",
+			"url": "https://github.com/hobbit-project",
+			"type": "github"
+		},{
+			"label": "Homepage",
+			"url": "http://project-hobbit.eu/",
+			"type": "website"
+		}]
+	}]
+}

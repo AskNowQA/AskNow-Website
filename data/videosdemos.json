@@ -1,0 +1,18 @@
+{
+	"videosdemos":[{
+		"title": "Demos & Videos",
+		"text": "'Question Answering' – Interview mit Prof. Dr. Jens Lehmann, Fraunhofer IAIS",
+		"videoURL": "https://www.youtube.com/embed/3LkCwvzrE9Q?cc_load_policy=1",
+		"demoURL": ""
+	},{
+		"title": "AskNow",
+		"text": "",
+		"videoURL": "https://www.youtube.com/embed/1QeTheMFzIY",
+		"demoURL": "http://asknowdemo.sda.tech/"
+	},{
+		"title": "FRANKENSTEIN",
+		"text": "Frankenstein is a platform that seamlessly integrates heterogeneous components performing different tasks of a Question-Answering System (e.g. entity recognition, relation linking). These components can either be used independently for annotating any short text or as part of a QA pipeline (i.e. system).",
+		"videoURL": "https://www.youtube.com/embed/_DY8N5d1klI",
+		"demoURL": "http://frankenstein.qanary-qa.com/"
+	}]
+}
