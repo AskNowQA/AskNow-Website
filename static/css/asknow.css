@@ -1,5 +1,6 @@
 .navbar-logo-asknow{
-	height: 60px;
+  height: 38px;
+	/*height: 60px;*/
 }
 .home-banner{
 	width: 100%;
@@ -114,10 +115,15 @@
   color: white;
 }
 a{
-  color: #F68712;
+  /*color: #F68712;*/
+  color: #354b82;
 }
 a:hover{
-  color: #354b82;
+  /*color: #354b82;*/
+  color: #F68712;
+}
+footer a{
+  color: #aaa;
 }
 .asknow-navbar .navbar-brand{
   color: #354b82;
@@ -125,6 +131,7 @@ a:hover{
 }
 .asknow-navbar{
   border-bottom: 2px solid #F68712;
+  border-bottom: 2px solid #354b82;
 }
 .asknow-list-group .list-group-item-info{
   background-color: #fee4b8;
